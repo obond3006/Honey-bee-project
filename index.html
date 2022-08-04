@@ -24,50 +24,62 @@
             <h3>
                 WHAT WE DO
             </h3>
-            <div></div>
+            <div class="line"></div>
             <p>
                 Our family-owned company is engaged with everything related to honey and its production. Learn more below about our services.
             </p>
-            <div class="services__cards">
-                <div class="services__cards-item">
-                    <img src="img/services/honey-bee.svg" alt="A honey bee picture">
-                    <h4>
-                        Honey Production
-                    </h4>
-                    <p>
-                        We produce, bottle, and sell honey harvested by our beekeepers.
-                    </p>
-                    <a href="#about">Learn More</a> <!--exact ID is needed-->
+            <div class="services__carousel-container">
+                <div class="services__carousel-cards-container">
+                    <div class="services__carousel-card">
+                        <img src="img/services/honey-bee.svg" alt="A honey bee picture">
+                        <h4>
+                            Honey Production
+                        </h4>
+                        <p>
+                            We produce, bottle, and sell honey harvested by our beekeepers.
+                        </p>
+                        <a href="#about">Learn More</a> <!--exact ID is needed-->
+                    </div>
+                    <div class="services__carousel-card">
+                        <img src="img/services/jar-of-honey.svg" alt="A jar of honey picture">
+                        <h4>
+                            Honey Shop
+                        </h4>
+                        <p>
+                            We offer over 10 types of organic raw honey in our online store. 
+                        </p>
+                        <a href="#store">Learn More</a> <!--exact ID is needed-->
+                    </div>
+                    <div class="services__carousel-card">
+                        <img src="img/services/bee-hive.svg" alt="A bee hive picture">
+                        <h4>
+                            Supplements
+                        </h4>
+                        <p>
+                            You can buy bee pollen, propolis, and hive mixtures.  
+                        </p>
+                        <a href="#contacts">Learn More</a> <!--exact ID is needed-->
+                    </div>
+                    <div class="services__carousel-card">
+                        <img src="img/services/bee-keeper.svg" alt="A bee keeper picture">
+                        <h4>
+                            Beekeeping Classes
+                        </h4>
+                        <p>
+                            Feel free to book excursions and workshops at our swaths.  
+                        </p>
+                        <a href="#contacts">Learn More</a> <!--exact ID is needed-->
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <div class="services__cards-item">
-                    <img src="img/services/jar-of-honey.svg" alt="A jar of honey picture">
-                    <h4>
-                        Honey Shop
-                    </h4>
-                    <p>
-                        We offer over 10 types of organic raw honey in our online store. 
-                    </p>
-                    <a href="#store">Learn More</a> <!--exact ID is needed-->
-                </div>
-                <div class="services__cards-item">
-                    <img src="img/services/bee-hive.svg" alt="A bee hive picture">
-                    <h4>
-                        Supplements
-                    </h4>
-                    <p>
-                        You can buy bee pollen, propolis, and hive mixtures.  
-                    </p>
-                    <a href="#contacts">Learn More</a> <!--exact ID is needed-->
-                </div>
-                <div class="services__cards-item">
-                    <img src="img/services/bee-keeper.svg" alt="A bee keeper picture">
-                    <h4>
-                        Beekeeping Classes
-                    </h4>
-                    <p>
-                        Feel free to book excursions and workshops at our swaths.  
-                    </p>
-                    <a href="#contacts">Learn More</a> <!--exact ID is needed-->
+                <!-- The carousel dots -->
+                <div class="carousel-dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </div>
         </section>
@@ -133,6 +145,45 @@
         <!--Sonia end-->
 
         <!--Olha start-->
+        <section class="main__faq">
+            <div class="faq__picture">
+                <img src="img/faq/honeycombs.jpg" alt="Honeycombs with honey picture">
+            </div>
+            <div class="faq__text">
+                <h2>
+                    FAQ
+                </h2>
+                <h3>
+                    HONEY QUESTIONS
+                </h3>
+                <div class="line"></div>
+                <p>
+                    Below are the most popular questions from our clients.
+                </p>
+                <div class="faq__text-accordion">
+                    <button class="accordion">What is raw honey?</button>
+                    <div class="accordion-content">
+                        <p>Raw honey is  honey as it is in the beehive. Raw honey is made by extracting honey from the honeycombs and separating it from impurities. It doesn't contain any hidden sugars and is not pasteurized or processed.</p>
+                    </div>
+                    <div class="accordion-line"></div>
+                    <button class="accordion">Can your honey cause allergies? </button>
+                    <div class="accordion-content">
+                        <p>We sell pure organic honey but it can cause allergies, indeed. Typical symptoms are the same as common pollen allergy symptoms: runny nose, sneezing, and swelling.</p>
+                    </div>
+                    <div class="accordion-line"></div>
+                    <button class="accordion">What payment options do you provide?</button>
+                    <div class="accordion-content">
+                        <p>We accept Visa and MasterCard cards issued by any American bank. You can also use PayPal.</p>
+                    </div>
+                    <div class="accordion-line"></div>
+                    <button class="accordion">Why does the assortment change sometimes?</button>
+                    <div class="accordion-content">
+                        <p>We bottle honey 3-4 times per year, according to the harvest seasons. Our capabilities are limited to around 3000 jars a year. Therefore, depending on the season, there may be different honey in our assortment, and some products may be temporarily unavailable.</p>
+                    </div>
+                    <div class="accordion-line"></div>
+                </div>
+            </div>
+        </section>
         <!--Olha end-->
 
         <!--Dmytro start-->
