@@ -1,0 +1,17 @@
+.services-heading, .services-subheading, .services-description {
+    text-align: center;
+}
+
+.services__carousel-cards-container {
+    display: inline-flex;
+}
+
+.services__carousel-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__carousel-img {
+    height: 100px;
+    width: 100px;
+}
