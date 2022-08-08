@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+:root {
+    --text-color: rgb(65, 57, 57);
+    --h2-text-color: #eb6d2f;
+    --h3-text-color: #5a3733;
+    scroll-behavior: smooth;
+    font-family: Open Sans, sans-serif;
+}
+
+.main__store {
+    /*check this!*/
+    background-image: url("../img/store/background-bees.jpg");
+}
+
+.store__heading {
+    color: var(--h2-text-color);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.store__subheading {
+    color: var(--h3-text-color);
+    font-family: "Signika Negative", sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.store__line {
+    height: 4px;
+    width: 50px;
+    background-color: var(--h2-text-color);
+}
+
+.store__decription {
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+.store__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store__products-carousel-element {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+.carousel-product-thumb {
+    object-fit: contain;
+}
+
+.carousel-product-name {
+    color: #939393;
+    font-size: 20px;
+    text-align: center;
+}
+
+.carousel-product-price {
+    color: #f7bd00;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buy-product {
+    color: white;
+    background-color: var(--h2-text-color);
+    padding: 10px 5px;
+    border-radius: 5px;
+    border:0;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+@media (min-width: 767px) {
+    .store__products-carousel{
+        display:flex;
+    }
+}
