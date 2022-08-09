@@ -5,6 +5,9 @@
     /*width: 100%;*/
 }
 
+.main__store{
+    max-width: 100%;
+}
 
 :root {
     --text-color: rgb(65, 57, 57);
