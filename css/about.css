@@ -26,11 +26,6 @@
     width: 100%;
 }
 
-.about__heading{
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
 .about__subheading{
     font-size: 38px;
     margin-top: 10px;
@@ -42,14 +37,8 @@
     line-height: 28.8px;
 }
 
-.about__line{
-    padding: 15px 0 15px 0;
-}
-
-.about__line .line{
-    height: 4px;
-    width: 12%;
-    background-color: rgb(235, 109, 47);
+.about-line{
+    background-color: var(--h2-text-color);
 }
 
 .about__items{
