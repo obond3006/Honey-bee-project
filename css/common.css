@@ -46,6 +46,7 @@
 }
 
 .line{
+    background-color: var(--h2-text-color);
     height: 4px;
     width: 12%;
 }

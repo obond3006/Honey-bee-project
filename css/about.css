@@ -5,9 +5,22 @@
     background-size: cover;
 }
 
+@media (min-width: 768px){
+    .main__about{
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 922px){
+    .main__about{
+        padding: 0 40px;
+    }
+}
+
 .main-about__container{
     max-width: 1200px;
     display: grid;
+    justify-content: center;
 }
 
 .about-info__container{
