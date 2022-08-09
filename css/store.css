@@ -5,10 +5,6 @@
     /*width: 100%;*/
 }
 
-.main__store{
-    max-width: 100%;
-}
-
 :root {
     --text-color: rgb(65, 57, 57);
     --h2-text-color: #eb6d2f;
@@ -18,12 +14,12 @@
 }
 
 .main__store {
-    /*check this!*/
+    /*Double-check this!*/
     background-image: url("../img/store/background-bees.jpg");
     object-fit: contain;
 }
-.img{
-    width: 100%;
+img{
+    max-width: 100%;
 }
 
 .store__heading {
