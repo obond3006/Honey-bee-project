@@ -12,6 +12,7 @@
     background-color: var(--background-color);
     background-size: cover;
     padding: 40px 0 55px;
+    margin: auto;
 }
 
 .services__header {
@@ -20,6 +21,7 @@
     align-items: center;
     margin: auto;
     width: 60vw;
+    min-width: 270px;
 }
 
 .services-heading, .services-subheading, .services-description {
@@ -52,35 +54,78 @@
     margin: 20px auto;
 }
 
-.services__carousel-cards-container {
-    display: inline-flex;
+.services__carousel-outter-container {
+    max-width: 1200px;
+    display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    margin: 60px auto;
+}
+
+.services__carousel-inner-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2%;    
+}
+
+@media (min-width: 770px) {
+    .services__carousel-inner-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .services__carousel-inner-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.services__carousel-card-container{
+    padding: auto 15px;
 }
 
 .services__carousel-card {
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 20%;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: var(--card-background-color);
     border-radius: 10px;
-    padding: 2%;
+    padding: 10% 7%;
 }
 
 .services__carousel-img {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
+}
+
+@media (min-width: 780px) {
+    .services__carousel-img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.services__carousel-card h4 {
+    color: var(--h3-text-color);
+    font-size: 22px;
+    font-family: "Signika Negative", sans-serif;
+    line-height: 160%;
+}
+
+.services__carousel-card p {
+    color: var(--text-color);
+    line-height: 160%;
 }
 
 .services__carousel-cards-link {
     text-decoration: none;
     color: var(--link-color);
     font-size: 13.5px;
-    font-weight: 600;
+    font-weight: 800;
     cursor: pointer;
 }
 
