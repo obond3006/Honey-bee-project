@@ -11,7 +11,7 @@
     background-image: url(../img/services/background-for-main-services.jpg);
     background-color: var(--background-color);
     background-size: cover;
-    padding: 40px 0 55px;
+    padding: 40px 24px 55px;
     margin: auto;
 }
 
@@ -20,38 +20,19 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    width: 60vw;
+    max-width: 1200px;;
     min-width: 270px;
-}
-
-.services-heading, .services-subheading, .services-description {
-    text-align: center;
-}
-
-.services-heading {
-    font-size: 14px;
-    text-transform: uppercase;
-    margin: 15px auto;
-}
-
-.services-subheading {
-    font-size: 38px;
-    text-transform: uppercase;
-    margin: auto;
 }
 
 .services-description {
     font-size: 18px;
     line-height: 160%;
     color: var(--text-color);
+    text-align: center;
 }
 
 .services-line {
-    height: 4px;
-    width: 6vw;
-    min-width: 40px;
     background-color: var(--h2-text-color);
-    margin: 20px auto;
 }
 
 .services__carousel-outter-container {
