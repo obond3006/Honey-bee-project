@@ -17,7 +17,7 @@
     /*Double-check this!*/
     background-image: url("../img/store/background-bees.jpg");
     object-fit: contain;
-
+}
 .store__heading {
     color: var(--h2-text-color);
     font-size: 14px;
