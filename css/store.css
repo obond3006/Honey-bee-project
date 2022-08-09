@@ -17,6 +17,10 @@
 .main__store {
     /*check this!*/
     background-image: url("../img/store/background-bees.jpg");
+    object-fit: contain;
+}
+.img{
+    width: 100%;
 }
 
 .store__heading {
