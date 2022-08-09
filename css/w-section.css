@@ -1,0 +1,79 @@
+.w-section {
+    background: #f9f4f0;
+}
+
+.w-section-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.w-section-content-about {
+    margin: auto;
+    
+
+}
+
+.w-section-carusel {
+    display: flex;
+    margin: auto;
+    flex-grow: 2;
+}
+
+.w-section-carusel-card {
+    background: white;
+    margin: auto;
+}
+
+.honney-caption-collor {
+    color: #eb6d2f;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 15px auto;
+    text-align: center;
+    padding: 0;
+}
+
+.w-section-subheading {
+    color: #5a3733;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.w-section-line {
+    height: 4px;
+    width: 6vw;
+    min-width: 40px;
+    color: #eb6d2f;
+    margin: 20px auto;
+}
+
+.w-section-description {
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(65, 57, 57, 1);
+    list-style: none;
+}
+
+.check-icon {
+    padding: 0 7px;
+    border: 0;
+    height: 18px;
+}
+
+.w-section-carusel-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--card-background-color);
+    border-radius: 10px;
+    padding: 2%;
+}
