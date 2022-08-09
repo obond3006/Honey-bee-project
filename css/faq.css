@@ -1,0 +1,17 @@
+.main__faq {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--background-color);
+    padding: 55px 0;
+}
+
+@media (min-width: 768px) {
+    .main__faq {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.faq-line{
+    background-color: var(--h2-text-color);
+}
+
