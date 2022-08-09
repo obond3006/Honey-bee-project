@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
-
 :root {
-    --text-color: #413939;
     --link-color: #ffd832;
-    --background-color: #f9f4f0;
     --card-background-color: #fff;
 }
 
@@ -20,8 +16,13 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    max-width: 1200px;;
+    max-width: 770px;;
     min-width: 270px;
+}
+
+.services-line {
+    background-color: var(--h2-text-color);
+    width: 6vw;
 }
 
 .services-description {
@@ -29,10 +30,6 @@
     line-height: 160%;
     color: var(--text-color);
     text-align: center;
-}
-
-.services-line {
-    background-color: var(--h2-text-color);
 }
 
 .services__carousel-outter-container {
@@ -48,16 +45,23 @@
     row-gap: 2%;    
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .services__carousel-inner-container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2%;
     }
+
+    .services-subheading {
+        margin-top: 30px;
+    }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 922px) {
     .services__carousel-inner-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .services__carousel-inner-container div:nth-child(4n) {
+        display: none;
     }
 }
 
