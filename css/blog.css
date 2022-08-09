@@ -57,10 +57,11 @@
 
 element.style {
 }
-@media (min-width: 768px)
-.numbers__conteiner {
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%;
+@media (min-width: 768px){
+    .numbers__conteiner {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
 }
