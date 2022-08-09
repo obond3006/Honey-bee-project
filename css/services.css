@@ -1,17 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --text-color: #413939;
+    --link-color: #ffd832;
+    --background-color: #f9f4f0;
+    --card-background-color: #fff;
+}
+
 .main__services {
     background-image: url(../img/services/background-for-main-services.jpg);
-    background-color: #f9f4f0;
+    background-color: var(--background-color);
     background-size: cover;
     padding: 40px 0 55px;
+}
+
+.services__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 60vw;
 }
 
 .services-heading, .services-subheading, .services-description {
     text-align: center;
 }
 
+.services-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+.services-subheading {
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.services-description {
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--text-color);
+}
+
+.services-line {
+    height: 4px;
+    width: 6vw;
+    min-width: 40px;
+    background-color: var(--h2-text-color);
+    margin: 20px auto;
+}
+
 .services__carousel-cards-container {
     display: inline-flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 .services__carousel-card {
@@ -22,7 +66,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ffffff;
+    background-color: var(--card-background-color);
     border-radius: 10px;
     padding: 2%;
 }
@@ -34,7 +78,7 @@
 
 .services__carousel-cards-link {
     text-decoration: none;
-    color: #ffd832;
+    color: var(--link-color);
     font-size: 13.5px;
     font-weight: 600;
     cursor: pointer;
