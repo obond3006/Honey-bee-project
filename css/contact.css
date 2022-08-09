@@ -1,0 +1,35 @@
+.main__contacts{
+    background-image: url(../img/contacts/contacts-background.jpeg);
+    background-size: cover;
+    margin: auto;
+}
+
+.contacts-container{
+    padding: 0 24px;
+}
+
+.contacts__heading{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.contacts__subheading{
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.contacts__line{
+    padding: 15px 0 15px 0;
+}
+
+.contacts__line .line{
+    height: 4px;
+    width: 12%;
+    background-color: rgb(235, 109, 47);
+}
+
+.contacts__decription{
+    color: rgb(65, 57, 57);
+    font-size: 18px;
+    line-height: 28.8px;
+}

@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    /*width: 100%;*/
 }
-
 
 :root {
     --text-color: rgb(65, 57, 57);
@@ -15,8 +14,12 @@
 }
 
 .main__store {
-    /*check this!*/
+    /*Double-check this!*/
     background-image: url("../img/store/background-bees.jpg");
+    object-fit: contain;
+}
+img{
+    max-width: 100%;
 }
 
 .store__heading {

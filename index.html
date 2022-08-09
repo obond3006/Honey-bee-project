@@ -57,62 +57,74 @@
 
         <!--Olha start-->
         <section class="main__services">
-            <h2 class="services-heading">
-                SERVICES
-            </h2>
-            <h3 class="services-subheading">
-                WHAT WE DO
-            </h3>
-            <div class="line"></div>
-            <p class="services-description">
-                Our family-owned company is engaged with everything related to honey and its production. Learn more
-                below about our services.
-            </p>
+            <div class="services__header">
+                <h2 class="services-heading">
+                    SERVICES
+                </h2>
+                <h3 class="services-subheading">
+                    WHAT WE DO
+                </h3>
+                <div class="services-line"></div>
+                <p class="services-description">
+                    Our family-owned company is engaged with everything related to honey and its production. Learn more
+                    below about our services.
+                </p>
+            </div>
             <div class="services__carousel-container">
-                <div class="services__carousel-cards-container">
+                <div class="services__carousel-outter-container">
                     <!-- Previous button -->
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <div class="services__carousel-card">
-                        <img class="services__carousel-img" src="img/services/honey-bee.svg" alt="A honey bee picture">
-                        <h4>
-                            Honey Production
-                        </h4>
-                        <p>
-                            We produce, bottle, and sell honey harvested by our beekeepers.
-                        </p>
-                        <a class="services__carousel-cards-link" href="#about">Learn More</a>
-                    </div>
-                    <div class="services__carousel-card">
-                        <img class="services__carousel-img" src="img/services/jar-of-honey.svg"
-                            alt="A jar of honey picture">
-                        <h4>
-                            Honey Shop
-                        </h4>
-                        <p>
-                            We offer over 10 types of organic raw honey in our online store.
-                        </p>
-                        <a class="services__carousel-cards-link" href="#store">Learn More</a>
-                    </div>
-                    <div class="services__carousel-card">
-                        <img class="services__carousel-img" src="img/services/bee-hive.svg" alt="A bee hive picture">
-                        <h4>
-                            Supplements
-                        </h4>
-                        <p>
-                            You can buy bee pollen, propolis, and hive mixtures.
-                        </p>
-                        <a class="services__carousel-cards-link" href="#contacts">Learn More</a>
-                    </div>
-                    <div class="services__carousel-card">
-                        <img class="services__carousel-img" src="img/services/bee-keeper.svg"
-                            alt="A bee keeper picture">
-                        <h4>
-                            Beekeeping Classes
-                        </h4>
-                        <p>
-                            Feel free to book excursions and workshops at our swaths.
-                        </p>
-                        <a class="services__carousel-cards-link" href="#contacts">Learn More</a>
+                    <div class="services__carousel-inner-container">
+                        <div class="services__carousel-card-container">
+                            <div class="services__carousel-card">
+                                <img class="services__carousel-img" src="img/services/honey-bee.svg" alt="A honey bee picture">
+                                <h4>
+                                    Honey Production
+                                </h4>
+                                <p>
+                                    We produce, bottle, and sell honey harvested by our beekeepers.
+                                </p>
+                                <a class="services__carousel-cards-link" href="#about">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="services__carousel-card-container">
+                            <div class="services__carousel-card">
+                                <img class="services__carousel-img" src="img/services/jar-of-honey.svg"
+                                    alt="A jar of honey picture">
+                                <h4>
+                                    Honey Shop
+                                </h4>
+                                <p>
+                                    We offer over 10 types of organic raw honey in our online store.
+                                </p>
+                                <a class="services__carousel-cards-link" href="#store">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="services__carousel-card-container">
+                            <div class="services__carousel-card">
+                                <img class="services__carousel-img" src="img/services/bee-hive.svg" alt="A bee hive picture">
+                                <h4>
+                                    Supplements
+                                </h4>
+                                <p>
+                                    You can buy bee pollen, propolis, and hive mixtures.
+                                </p>
+                                <a class="services__carousel-cards-link" href="#contacts">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="services__carousel-card-container">
+                            <div class="services__carousel-card">
+                                <img class="services__carousel-img" src="img/services/bee-keeper.svg"
+                                    alt="A bee keeper picture">
+                                <h4>
+                                    Beekeeping Classes
+                                </h4>
+                                <p>
+                                    Feel free to book excursions and workshops at our swaths.
+                                </p>
+                                <a class="services__carousel-cards-link" href="#contacts">Learn More</a>
+                            </div>
+                        </div>
                     </div>
                     <!-- Next button -->
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -124,55 +136,87 @@
         <!--Dmytro start-->
         <section id="about" class="main__about">
 
-            <div class="about__image">
-                <img src="img/about/about-honey-beekeeper.png" alt="honey and beekeeper photos">
-            </div>
+            <div class="main-about__container">
+                <div class="about-image__container">
+                    <img class="about-image" src="img/about/about-honey-beekeeper.png" alt="honey and beekeeper photos">
+                </div>
 
-            <div class="about__header">
-                <h2 class="about__heading">
-                    Why choose us
-                </h2>
-                <h3 class="about__subheading">
-                    ABOUT BEEHONEY
-                </h3>
-
-                <div class="about__line line">___</div>
-
-                <p class="about__decription">
-                    We are a family-owned business managing 5+ swaths in California. We bottle our honey with love and
-                    care.
-                </p>
-            </div>
-
-            <div class="about__info">
-                <ul class="info__about-list">
-                    <li class="about-list__list-object">
-                        <h4>
-                            <img src="img/about/about-bee-icon.svg" alt="bee icon">Natural Environment
-                        </h4>
-                        <p class="about-list__description">
-                            Our swaths are located in ecologically clean areas in California. The bees feel really happy
-                            there!
-                        </p>
-                    </li>
-                    <li class="about-list__object">
-                        <h3 class="about-list__heading">
-                            <img src="img/about/about-medal-icon.svg" alt="medal icon">Certified Honey Production
+                <div class="about-info__container">
+                    <div class="about__header">
+                        <h2 class="about__heading">
+                            Why choose us
+                        </h2>
+                        <h3 class="about__subheading">
+                            ABOUT BEEHONEY
                         </h3>
-                        <p class="about__list-description">
-                            We produce 100% organic raw honey without pasteurization or filtration processes.
+
+                        <div class="about__line">
+                            <div class="line"></div>
+                        </div>
+
+                        <p class="about-header__description">
+                            We are a family-owned business managing 5+ swaths in California. We bottle our honey with
+                            love and
+                            care.
                         </p>
-                    </li>
-                    <li class="about-list__object">
-                        <h3 class="about-list__heading">
-                            <img src="img/about/about-scooter-icon.svg" alt="scooter icon">Fast Shipping
-                        </h3>
-                        <p class="about-list__description">
-                            We are really fast at shipping, so you can enjoy our honey in a couple of days after your
-                            order!
-                        </p>
-                    </li>
-                </ul>
+                    </div>
+
+                    <div class="about__items">
+                        <div class="about__item">
+                            <div class="about__icon">
+                                <div class="icon">
+                                    <img src="img/about/about-bee-icon.svg" alt="bee icon">
+                                </div>
+                            </div>
+                            <div class="about__description">
+                                <h4>
+                                    Natural Environment
+                                </h4>
+                                <p>
+                                    Our swaths are located in ecologically clean areas in California. The bees feel
+                                    really happy
+                                    there!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="about__item">
+                            <div class="about__icon">
+                                <div class="icon">
+                                    <img src="img/about/about-bee-icon.svg" alt="bee icon">
+                                </div>
+                            </div>
+                            <div class="about__description">
+                                <h4>
+                                    Natural Environment
+                                </h4>
+                                <p>
+                                    Our swaths are located in ecologically clean areas in California. The bees feel
+                                    really happy
+                                    there!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="about__item">
+                            <div class="about__icon">
+                                <div class="icon">
+                                    <img src="img/about/about-bee-icon.svg" alt="bee icon">
+                                </div>
+                            </div>
+                            <div class="about__description">
+                                <h4>
+                                    Natural Environment
+                                </h4>
+                                <p>
+                                    Our swaths are located in ecologically clean areas in California. The bees feel
+                                    really happy
+                                    there!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -187,49 +231,51 @@
         <!--VolodymyrLys end-->
 
         <!--VolodymyrLys start-->
-        <div class="w-section">
-            <div class="w-section-content">
-                <div class="w-section-content-about">
-                    <p class="honney-caption-collor">TYPES OF HONEY</p>
-                    <h2>TOP HONEY FLAVORS FROM OUR SWATHS </h2>
-                    <p class="honney-caption">Honey is a versatile source of vitamins and useful materials for your
-                        health:</p>
-                    <ul>
-                        <li>It is good for your digestive system.</li>
-                        <li>Raw honey is rich in antioxidants.</li>
-                        <li>Honey has beneficial effects on heart health.</li>
-                        <li>It improves the cholesterol rate.</li>
-                    </ul>
-                </div>
-                <div class="w-section-carusel">
-                    <div class="w-section-carusel-card">
-                        <img class="carusel-card-item" src="img/services/icon2.svg" alt="Wildflower Honey image">
-                        <h4>Wildflower Honey #1</h4>
-                        <p class="item-caption"> It is also know as polyfloral hjney.</p>
-                        <button class="shop-now">Shop Now</button>
-                    </div>
-                    <div class="w-section-carusel-card">
-                        <img class="carusel-card-item" src="img/services/icon9.svg" alt="Wildflower Honey image">
-                        <h4>Wildflower Honey #2</h4>
-                        <p class="item-caption"> It is also know as polyfloral hjney.</p>
-                        <button class="shop-now">Shop Now</button>
-                    </div>
-                    <div class="w-section-carusel-card">
-                        <img class="carusel-card-item" src="img/services/icon10.svg" alt="Wildflower Honey image">
-                        <h4>Wildflower Honey #3</h4>
-                        <p class="item-caption"> It is also know as polyfloral hjney.</p>
-                        <button class="shop-now">Shop Now</button>
-                    </div>
-                    <div class="w-section-carusel-card">
-                        <img class="carusel-card-item" src="img/services/icon11.svg" alt="Wildflower Honey image">
-                        <h4>Wildflower Honey #4</h4>
-                        <p class="item-caption"> It is also know as polyfloral hjney.</p>
-                        <button class="shop-now">Shop Now</button>
-                    </div>
-                </div>
-                <div class="point-navigation"></div>
+        <link rel="stylesheet" type="text/css" href="/css/w-section.css">
+    <div class="w-section">
+        <div class="w-section-content"> <!--box flex-->
+            <div class="w-section-content-about"> <!--box image-->
+                <p class="honney-caption-collor">TYPES OF HONEY</p>
+                <h3 class="w-section-subheading">TOP HONEY FLAVORS FROM OUR SWATHS </h3>
+                <div class="w-section-line"></div>
+                <p class="w-section-description">Honey is a versatile source of vitamins and useful materials for your
+                    health:</p>
+                <ul class="w-section-description">
+                    <li><img src="img/check icon.svg" class="check-icon" alt="check-icon"> It is good for your digestive system.</li>
+                    <li><img src="img/check icon.svg" class="check-icon" alt="check-icon"> Raw honey is rich in antioxidants.</li>
+                    <li><img src="img/check icon.svg" class="check-icon" alt="check-icon"> Honey has beneficial effects on heart health.</li>
+                    <li><img src="img/check icon.svg" class="check-icon" alt="check-icon"> It improves the cholesterol rate.</li>
+                </ul>
             </div>
+            <div class="w-section-carusel">
+                <div class="w-section-carusel-card">
+                    <img class="carusel-card-item" src="img/icon2.svg" alt="Wildflower Honey image">
+                    <h4>Wildflower Honey #1</h4>
+                    <p class="item-caption"> It is also know as polyfloral hjney.</p>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+                <div class="w-section-carusel-card">
+                    <img class="carusel-card-item" src="img/icon9.svg" alt="Wildflower Honey image">
+                    <h4>Wildflower Honey #2</h4>
+                    <p class="item-caption"> It is also know as polyfloral hjney.</p>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+                <div class="w-section-carusel-card">
+                    <img class="carusel-card-item" src="img/icon10.svg" alt="Wildflower Honey image">
+                    <h4>Wildflower Honey #3</h4>
+                    <p class="item-caption"> It is also know as polyfloral hjney.</p>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+                <div class="w-section-carusel-card">
+                    <img class="carusel-card-item" src="img/icon11.svg" alt="Wildflower Honey image">
+                    <h4>Wildflower Honey #4</h4>
+                    <p class="item-caption"> It is also know as polyfloral hjney.</p>
+                    <button class="shop-now">Shop Now</button>
+                </div> 
+            </div>
+            <div class="point-navigation"></div>
         </div>
+    </div>
         <!--VolodymyrLys end-->
 
         <!--Mike Litovka start-->
@@ -401,9 +447,6 @@
             </div>
         </div>
         <!--Sonia end-->
-
-
-
         <!--Sonia start-->
         <section class="conteiner__blog">
             <div>
@@ -447,67 +490,6 @@
                 <p>Learn about how our beekeepers harvest honey from honeycomb frames.</p>
             </div>
         </section>
-        <!--Sonia end-->
-
-        <!--Olha start-->
-        <section class="main__faq">
-            <div class="faq__picture">
-                <img src="img/faq/honeycombs.jpg" alt="Honeycombs with honey picture">
-            </div>
-            <div class="faq__text">
-                <h2>
-                    FAQ
-                </h2>
-                <h3>
-                    HONEY QUESTIONS
-                </h3>
-                <div class="line"></div>
-                <p>
-                    Below are the most popular questions from our clients.
-                </p>
-                <div class="faq__text-accordion">
-                    <button class="accordion">What is raw honey?</button>
-                    <div class="accordion-content">
-                        <p>Raw honey is honey as it is in the beehive. Raw honey is made by extracting honey from the
-                            honeycombs and separating it from impurities. It doesn't contain any hidden sugars and is
-                            not pasteurized or processed.</p>
-                        =======
-                        <div class="blog__conteiner">
-                            <div class="blog__conteiner__img">
-                                <img src="img/testimonials/news-1.jpg" alt="First News">
-                                >>>>>>> a57fc9975937e006e905cd7acead3c08b22b154f
-                            </div>
-                            <h4 class="blog__date">FEBRUARY 7, 2021</h4>
-                            <h3 class="blog__conteiner_h">What is Natural Honey?</h3>
-                            <p>Let's see how to distinguish natural honey from artificial honey.</p>
-                        </div>
-                        <div class="blog__conteiner">
-                            <div class="blog__conteiner__img">
-                                <img src="img/testimonials/news-2.jpg" alt="Second News">
-                            </div>
-                            <h4 class="blog__date">MARCH 10, 2021</h4>
-                            <h3 class="blog__conteiner_h">New Season is Here!</h3>
-                            <p>After winter, work in our Californian swaths is in full swing again.</p>
-                        </div>
-                        <div class="blog__conteiner">
-                            <div class="blog__conteiner__img">
-                                <img src="img/testimonials/news-3.jpg" alt="Third News">
-                            </div>
-                            <h4 class="blog__date">MARCH 17, 2021</h4>
-                            <h3 class="blog__conteiner_h">Honey in Jars</h3>
-                            <p>Why is honey usually sold in glass jars? Our expert explains.</p>
-                        </div>
-                        <div class="blog__conteiner">
-                            <div class="blog__conteiner__img">
-                                <img src="img/testimonials/news-4.jpg" alt="4th News">
-                            </div>
-                            <h4 class="blog__date">APRIL 12, 2021</h4>
-                            <h3 class="blog__conteiner_h">How is Honey Harvested?</h3>
-                            <p>Learn about how our beekeepers harvest honey from honeycomb frames.</p>
-                        </div>
-        </section>
-        <!--Sonia start-->
-
         <!--Sonia end-->
 
         <!--Olha start-->
@@ -587,84 +569,90 @@
 
         <!--Dmytro start-->
         <section id="contacts" class="main__contacts">
-            <div class="contacts__header">
-                <h2 class="contacts__heading">
-                    CONTACTS
-                </h2>
-                <h3 class="contacts__subheading">
-                    CONTACT US ANYTIME
-                </h3>
-
-                <div class="contacts__line line">___</div>
-
-                <p class="contacts__decription">
-                    Feel free to contact us for any inquiries or commercial offers:
-                </p>
-            </div>
-            <div class="contacts__info">
-                <div class="contacts-info__object">
-                    <h4 class="contacts-info__heading">
-                        Address
-                    </h4>
-                    <p class="contacts-info__description">
-                        44670 Mattole Rd, Honeydew,<br>
-                        CA 95545
+            <div class="contacts-container">
+                <div class="contacts__header">
+                    <h2 class="contacts__heading">
+                        CONTACTS
+                    </h2>
+                    <h3 class="contacts__subheading">
+                        CONTACT US ANYTIME
+                    </h3>
+    
+                    <div class="contacts__line">
+                        <div class="line"></div>
+                    </div>
+    
+                    <p class="contacts__decription">
+                        Feel free to contact us for any inquiries or commercial offers:
                     </p>
                 </div>
-
-                <div class="contacts-info__object">
-                    <h4 class="contacts-info__heading">
-                        Hours
-                    </h4>
-                    <p class="contacts-info__description">
-                        Monday - Saturday: 11 AM - 9 PM<br>
-                        Sunday: 11 AM - 7 PM
-                    </p>
-                </div>
-
-                <div class="contacts-info__object">
-                    <h4 class="contacts-info__heading">
-                        Contacts
-                    </h4>
-                    <p class="contacts-info__description">
-                        <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a><br>
-                        <a href="mailto:honeybee@email.com">honeybee@email.com</a>
-                    </p>
-                </div>
-                <div class="contacts-info__object">
-                    <div id="map" class="contacts-info__map">
-                        There will be a map
+                <div class="contacts__info">
+                    <div class="contacts-info__object">
+                        <h4 class="contacts-info__heading">
+                            Address
+                        </h4>
+                        <p class="contacts-info__description">
+                            44670 Mattole Rd, Honeydew,<br>
+                            CA 95545
+                        </p>
+                    </div>
+    
+                    <div class="contacts-info__object">
+                        <h4 class="contacts-info__heading">
+                            Hours
+                        </h4>
+                        <p class="contacts-info__description">
+                            Monday - Saturday: 11 AM - 9 PM<br>
+                            Sunday: 11 AM - 7 PM
+                        </p>
+                    </div>
+    
+                    <div class="contacts-info__object">
+                        <h4 class="contacts-info__heading">
+                            Contacts
+                        </h4>
+                        <p class="contacts-info__description">
+                            <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a><br>
+                            <a href="mailto:honeybee@email.com">honeybee@email.com</a>
+                        </p>
+                    </div>
+                    <div class="contacts-info__object">
+                        <div id="map" class="contacts-info__map">
+                            There will be a map
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="contacts__form">
-                <form action="https://formspree.io/f/xqkjzwqo" method="post">
-                    <input type="text" name="user's name" placeholder="Enter your full name*" required>
-                    <input type="tel" name="user's phone number" placeholder="Enter your phone number*" required>
-                    <input type="email" name="user's email" placeholder="Enter your e-mail*" required>
-                    <input type="text" placeholder="Type your message" required>
-                    <button type="submit">Request a Quote</button>
-                </form>
+                <div class="contacts__form">
+                    <form action="https://formspree.io/f/xqkjzwqo" method="post">
+                        <input type="text" name="user's name" placeholder="Enter your full name*" required>
+                        <input type="tel" name="user's phone number" placeholder="Enter your phone number*" required>
+                        <input type="email" name="user's email" placeholder="Enter your e-mail*" required>
+                        <input type="text" placeholder="Type your message" required>
+                        <button type="submit">Request a Quote</button>
+                    </form>
+                </div>
             </div>
         </section>
         <!--Dmytro end-->
 
         <!--Dmytro start-->
         <div id="gallery" class="gallery__section">
-            <div class="image__conatiner">
-                <img src="img/gallery/gallery-beekeeper.jpeg" alt="photo of beekeeper">
-            </div>
-            <div class="image__conatiner">
-                <img src="img/gallery/gallery-bees.jpeg" alt="photo of bees">
-            </div>
-            <div class="image__conatiner">
-                <img src="img/gallery/gallery-woman-beekeeper.jpeg" alt="photo of woman beekeeper">
-            </div>
-            <div class="image__conatiner">
-                <img src="img/gallery/gallery-flower-field.jpeg" alt="photo of field">
-            </div>
-            <div class="image__conatiner">
-                <img src="img/gallery/gallery-honey.jpeg" alt="photo with honey">
+            <div class="gallery-wrapper">
+                <div class="image__container">
+                    <img src="img/gallery/gallery-beekeeper.jpeg" alt="photo of beekeeper">
+                </div>
+                <div class="image__container">
+                    <img src="img/gallery/gallery-bees.jpeg" alt="photo of bees">
+                </div>
+                <div class="image__container">
+                    <img src="img/gallery/gallery-woman-beekeeper.jpeg" alt="photo of woman beekeeper">
+                </div>
+                <div class="image__container">
+                    <img src="img/gallery/gallery-flower-field.jpeg" alt="photo of field">
+                </div>
+                <div class="image__container">
+                    <img src="img/gallery/gallery-honey.jpeg" alt="photo with honey">
+                </div>
             </div>
         </div>
         <!--Dmytro end-->
