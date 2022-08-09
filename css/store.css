@@ -17,10 +17,6 @@
     /*Double-check this!*/
     background-image: url("../img/store/background-bees.jpg");
     object-fit: contain;
-}
-img{
-    max-width: 100%;
-}
 
 .store__heading {
     color: var(--h2-text-color);
@@ -69,6 +65,7 @@ img{
 
 .carousel-product-thumb {
     object-fit: contain;
+    max-width: 100%;
 }
 
 .carousel-product-name {
