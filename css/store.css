@@ -56,6 +56,10 @@
     align-items: center;
 }
 
+.carousel__arrow{
+    justify-content: center;
+}
+
 .store__products-carousel-element {
     display: flex;
     flex-direction: column;
