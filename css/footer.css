@@ -1,0 +1,45 @@
+.footer {
+    margin: auto;
+    background-image: url(../img/footer/backgroung-footer.jpeg);
+    background-size: cover;
+}
+
+.footer__container {
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+}
+
+.container__nav {
+    padding: 55px 15px 15px 15px;
+}
+
+.footer-logo {
+    width: 69px;
+}
+
+.footer-logo-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: rgb(170,155,143);
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.nav__text-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-links {
+    padding: 10px 17.5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(90,50,51);
+}
+
+.text-links a:hover {
+    color: #eb6d2f;
+}
