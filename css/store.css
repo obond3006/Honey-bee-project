@@ -16,10 +16,10 @@
 .main__store {
     /*Double-check this!*/
         background-image: url("../img/store/background-bees.jpg");
-        /* background-position: 50% 50%; */
+        background-size: cover;
         background-repeat: no-repeat;
-        object-fit: cover;
-        padding: 55px 5% 80px;
+        padding: 55px 10% 80px;
+        
 }
 .store__heading {
     color: var(--h2-text-color);
