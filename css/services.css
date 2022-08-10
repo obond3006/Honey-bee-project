@@ -64,10 +64,6 @@
     }
 }
 
-.services__carousel-card-container{
-    padding: auto 15px;
-}
-
 .services__carousel-card {
     height: 100%;
     display: flex;
