@@ -25,8 +25,10 @@
     text-align: center;
 
 }
-. steps__hunny-line {
-    background-image: url(..img/steps/line_honey.webp)
+.steps__hunny-line {
+    background-image: url(../img/steps/line_honey.webp);
+    background-color: #f9f4f0;;
+    background-size: cover;
     min-height: 300px
 }
 .steps__subheading {
