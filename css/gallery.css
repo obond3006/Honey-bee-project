@@ -1,4 +1,12 @@
-.gallery__section{
+.gallery-wrapper{
+    display: flex;
+}
+
+.gallery-img{
+    display: block;
+}
+
+/* .gallery__section{
     margin: auto;
     background-color: #f9f4f0;
     padding: 60px 24px 60px 24px;
