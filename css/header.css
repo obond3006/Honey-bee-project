@@ -37,11 +37,12 @@
 .text-link:hover {
     color: orangered;
     padding: 10;
-    border-bottom: 2px orange;
+    border-bottom: orange;
 }
 
 .Bunner__button {
    background-color: cover;
+   padding: 10px;
    color: #5a3733;
    height: 36.95px;
    font-family: inherit;
