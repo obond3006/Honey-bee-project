@@ -16,7 +16,7 @@
 .main__store {
     /*Double-check this!*/
     background-image: url("../img/store/background-bees.jpg");
-    object-fit: contain;
+    object-fit: cover;
 }
 .store__heading {
     color: var(--h2-text-color);
@@ -87,16 +87,27 @@
 .buy-product {
     color: white;
     background-color: var(--h2-text-color);
-    padding: 10px 5px;
-    border-radius: 5px;
+    padding: 10px 25px;
+    border-radius: 8px;
     border:0;
     text-transform: capitalize;
     font-weight: bold;
     text-align: center;
-    
+    align-self: center;
+    margin-top: 20px;
 }
 
-@media (min-width: 767px) {
+.buy-product:hover{
+    background-color: orange;
+}
+
+@media (min-width: 767px) and (max-width: 921px) {
+    .store__products-carousel{
+        display:flex;
+    }
+}
+
+@media (min-width: 922px) {
     .store__products-carousel{
         display:flex;
     }
