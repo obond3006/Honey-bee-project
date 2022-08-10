@@ -33,10 +33,13 @@
     line-height: 14px;
     text-align: left;
     text-transform: uppercase;
+    color: rgb(235, 109, 47);
 }
 .header__big {
     font-family: "Signika Negative", sans-serif;
     font-size: 110px;
+    color: #5a3733;
+
 }
 .paragraph__text {
     font-family: "Open Sans", sans-serif;
@@ -46,22 +49,25 @@
 
 .myline {
     height: 3px;
-    width: 12%;
+    width: 3%;
     background-color: rgb(235, 109, 47);
 }
 
 .mybutton {
- 
-    font-size: 16.5px;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    color: bisque;
-    background-color:#eb6d2f;
-    border: 40px,17px;
-    text-decoration: none;
+    color: #fff;
+    background-color: rgb(235, 109, 47);
+    margin: 56px 12px 12px 12px;
+    padding: 20px;
     border-radius: 8px;
-    user-select: none;
-        }
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+    text-decoration: none;
+    line-height: 156px;
+}
 
-    .mybutton :hover {background-color: #f7bd00;
+.mybutton:hover{
+    background-color: #f7bc02;
+    
 }
