@@ -11,7 +11,6 @@
 
 .faq__image-container {
     display: flex;
-    justify-content: end;
     margin: auto;
     padding: 0;
 }
@@ -23,7 +22,7 @@
 
 .faq__text {
     width: 100%;
-    max-width: 570px;
+    max-width: 600px;
     padding: 0;
 }
 
@@ -63,6 +62,7 @@
     .faq__image-container {
         max-width: 570px;
         padding: 0 15px;
+        margin: 0 0 auto auto;
     }
 
     .faq-subheading {

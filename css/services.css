@@ -12,17 +12,15 @@
 }
 
 .services__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin: auto;
-    max-width: 770px;;
+    max-width: 770px;
     min-width: 270px;
 }
 
 .services-line {
     background-color: var(--h2-text-color);
-    width: 6vw;
+    margin: auto;
 }
 
 .services-description {
@@ -36,6 +34,7 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 60px auto;
 }
 
@@ -110,10 +109,27 @@
     text-decoration: none;
     color: var(--link-color);
     font-size: 13.5px;
-    font-weight: 800;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: .03em;
     cursor: pointer;
 }
 
 .services__carousel-cards-link:hover {
     text-decoration: underline;
+}
+
+.arrow-prev {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    fill: var(--h3-text-color);
+    transform: rotateY(180deg);
+}
+
+.arrow-next {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    fill: var(--h3-text-color);
 }
