@@ -73,7 +73,9 @@
             <div class="services__carousel-container">
                 <div class="services__carousel-outter-container">
                     <!-- Previous button -->
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <div class="slider-arrow">
+                        <svg class="arrow-prev" viewBox="0 0 30 30"><defs><path d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z" id="a-1659455820592"></path></defs><use fill-rule="nonzero" opacity=".8" xlink:href="#a-1659455820592"></use></svg>
+                    </div>
                     <div class="services__carousel-inner-container">
                         <div class="services__carousel-card-container">
                             <div class="services__carousel-card">
@@ -127,7 +129,9 @@
                         </div>
                     </div>
                     <!-- Next button -->
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <div class="slider-arrow">
+                        <svg class="arrow-next" viewBox="0 0 30 30"><defs><path d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z" id="a-1659455820593"></path></defs><use fill-rule="nonzero" opacity=".8" xlink:href="#a-1659455820592"></use></svg>
+                    </div>
                 </div>
             </div>
         </section>
@@ -298,7 +302,7 @@
             <div class="store__products">
                 <div class="store__products-carousel">
                     <div class="store__products-carousel-element">
-                        <span class="carousel__arrow"><</span>
+                        <span class="carousel__arrow"></span>
                     </div>
                     <div class="store__products-carousel-element">
                         <a href="#"><img class="carousel-product-thumb" src="img/store/wildflower-honey.jpeg"
@@ -344,7 +348,7 @@
         <!--Anna start-->
         <section id="how-steps" class="how__steps">
             <div class="steps">
-                <img src="img/steps/line_honey.webp" alt="line_honey">
+                <!-- <img src="img/steps/line_honey.webp" alt="line_honey"> -->
                 <h2 class="steps__header">
                     HOW TO ORDER
                 </h2>
@@ -393,33 +397,33 @@
                     words of appreciation make us better!</p>
             </div>
             <div class="review__container">
-                <div class="container">
-                    <img class="container__photo" src="img/testimonials/jassicapeterson.png" alt="jessicapeterson
+                <div class="container__review">
+                    <img class="review__photo" src="img/testimonials/jassicapeterson.png" alt="jessicapeterson
                     ">
-                    <h4 class="container__name">Jessica Peterson</h4>
-                    <p class="container__text">“This is great honey, 100% natural! It is not the first time I order
+                    <h4 class="review__name">Jessica Peterson</h4>
+                    <p class="review__text">“This is great honey, 100% natural! It is not the first time I order
                         honey from this company, and every time I know that I will get delicious, high-quality, not
                         crystallized honey. I use honey as a topping for pancakes, various desserts, and marinades. It
                         is delicious and my children also like this honey!"</p>
-                    <p class="container__data">October 28, 2020</p>
+                    <p class="review__data">October 28, 2020</p>
                 </div>
-                <div class="container">
-                    <img class="container__haeder" src="img/testimonials/deannillsrom.png" alt="deannillsrom">
-                    <h4 class="container__name">Dean Nillstrom</h4>
-                    <p class="container__text">“Nowadays it is not so easy to find really good, tasty, and natural
+                <div class="container__review">
+                    <img class="review__photo" src="img/testimonials/deannillsrom.png" alt="deannillsrom">
+                    <h4 class="review__name">Dean Nillstrom</h4>
+                    <p class="review__text">“Nowadays it is not so easy to find really good, tasty, and natural
                         honey. I first tried the HoneyBee honey several years ago, and since then I have been a regular
                         customer of this producer. I know for sure that these guys work with feeling and sell real honey
                         from their swaths. I am always happy with the product I receive." </p>
-                    <p class="container__data">February 12, 2021</p>
-                </div>git
-                <div class="container">
-                    <img class="container__photo" src="img/testimonials/dianafergusson.png" alt="dianafergusson">
-                    <h4 class="container__name">Diana Fergusson</h4>
-                    <p class=" container__text">“Having tasted this honey once, I no longer needed alternatives. This is
+                    <p class="review__data">February 12, 2021</p>
+                </div>
+                <div class="container__review">
+                    <img class="review__photo" src="img/testimonials/dianafergusson.png" alt="dianafergusson">
+                    <h4 class="review__name">Diana Fergusson</h4>
+                    <p class=" review__text">“Having tasted this honey once, I no longer needed alternatives. This is
                         the tastiest honey I've ever tried! I buy different types of honey, from clover to buckwheat.
                         Each jar of honey is a real triumph of taste. This is real honey — thick, aromatic, dark, and
                         moderately sweet. Exactly what I need!"</p>
-                    <p class="container__data">April 18, 2021</p>
+                    <p class="review__data">April 18, 2021</p>
                 </div>
             </div>
         </div>
@@ -671,16 +675,16 @@
                     <p class="footer-logo-text">Honey Production Company</p>
                 </div>
                 <div class="nav__text-links">
-                    <a class="text-links" href="#about">About Us</a>
-                    <a class="text-links" href="#types">Types of Honey</a>
-                    <a class="text-links" href="#store">Store</a>
-                    <a class="text-links" href="#testimonials">Testimonials</a>
-                    <a class="text-links" href="#contact">Contact Us</a>
+                        <a class="text-links" href="#about">About Us</a>
+                        <a class="text-links" href="#types">Types of Honey</a>
+                        <a class="text-links" href="#store">Store</a>
+                        <a class="text-links" href="#testimonials">Testimonials</a>
+                        <a class="text-links" href="#contact">Contact Us</a>
                 </div>
                 <div class="nav__social-links">
-                    <img class="social-link" src="img/footer/facebook-icon.png" alt="facebook-icon">
-                    <img class="social-link" src="img/footer/instagram-icon.png" alt="instagram-icon">
-                    <img class="social-link" src="img/footer/youtube-icon.png" alt="youtube-icon">
+                    <img style="width: 38px;" class="social-link" src="img/footer/facebook-icon.png" alt="facebook-icon">
+                    <img style="width: 38px;" class="social-link" src="img/footer/instagram-icon.png" alt="instagram-icon">
+                    <img style="width: 38px;" class="social-link" src="img/footer/youtube-icon.png" alt="youtube-icon">
                 </div>
 
             </nav>
