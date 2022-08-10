@@ -17,9 +17,8 @@
     /*Double-check this!*/
         background-image: url("../img/store/background-bees.jpg");
         background-size: cover;
-        background-repeat: no-repeat;
-        padding: 55px 10% 80px;
-        
+        background-repeat: no-repeat;    
+        padding: 55px 10% 80px;    
 }
 .store__heading {
     color: var(--h2-text-color);
@@ -105,7 +104,8 @@
     background-color: orange;
 }
 
-@media (min-width: 768px) and (max-width: 990px) {
+
+@media (min-width: 768px) and (max-width: 1024px) {
     .store__products-carousel-element{
         max-width: 320px;
         padding: 10px;
@@ -115,10 +115,17 @@
             justify-content: space-around;
             flex-wrap: wrap;
     }
+    .main__store{
+        padding: 105px 4% 55px;
+    }
 }
 
-@media (min-width: 921px) {
+@media (min-width: 1025px) {
     .store__products-carousel{
         display:flex;
+    }
+
+    .main__store{
+        padding: 55px 10% 80px;
     }
 }
