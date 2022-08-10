@@ -57,3 +57,33 @@
     color: white;
     background-color:orangered;
 }
+.upper__theme {  
+    background-image: url(../img/header/beefon.jpg);
+    background-size: cover;
+}
+
+.upper__theme {
+   padding: 130px 0;
+}
+
+.upper__container {
+    padding: 0 24px;
+}
+
+@media (min-width:768px) {
+    .upper__theme {
+        padding: 190px 0;
+     } 
+     .upper__container {
+    padding: 0 36px;
+    }
+}
+
+@media (min-width:922px) {
+    .upper__theme {
+        padding: 250px 0;
+    }
+    .upper__container {
+        padding: 0 40px;
+    }
+}

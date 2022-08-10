@@ -2,16 +2,79 @@
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--background-color);
-    padding: 55px 0;
-}
-
-@media (min-width: 768px) {
-    .main__faq {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    padding: 55px 24px;
 }
 
 .faq-line{
     background-color: var(--h2-text-color);
 }
 
+.faq__image-container {
+    display: flex;
+    margin: auto;
+    padding: 0;
+}
+
+.faq-image {
+    display: block;
+    width: 100%;
+}
+
+.faq__text {
+    width: 100%;
+    max-width: 600px;
+    padding: 0;
+}
+
+.faq__text-accordion {
+    margin-top: 25px;
+}
+
+.accordion-container {
+    padding: 20px 0;
+}
+
+.accordion-label-heading {
+    color: var(--h3-text-color);
+    font-family: "Signika Negative", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.accordion-content {
+    margin-top: 25px;
+}
+
+.accordion-description {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    .main__faq {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 55px 0;
+    }
+
+    .faq__image-container {
+        max-width: 570px;
+        padding: 0 15px;
+        margin: 0 0 auto auto;
+    }
+
+    .faq-subheading {
+        margin-top: 30px;
+    }
+
+    .faq__text {
+        padding: 0 15px;
+    }
+    
+    .accordion-label-heading {
+        font-size: 22px;
+        line-height: 30.8px;
+    }
+}

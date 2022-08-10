@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
-
 :root {
-    --text-color: #413939;
     --link-color: #ffd832;
-    --background-color: #f9f4f0;
     --card-background-color: #fff;
 }
 
@@ -16,12 +12,15 @@
 }
 
 .services__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin: auto;
-    max-width: 1200px;;
+    max-width: 770px;
     min-width: 270px;
+}
+
+.services-line {
+    background-color: var(--h2-text-color);
+    margin: auto;
 }
 
 .services-description {
@@ -31,14 +30,11 @@
     text-align: center;
 }
 
-.services-line {
-    background-color: var(--h2-text-color);
-}
-
 .services__carousel-outter-container {
     max-width: 1200px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 60px auto;
 }
 
@@ -48,21 +44,24 @@
     row-gap: 2%;    
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .services__carousel-inner-container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2%;
     }
-}
 
-@media (min-width: 1000px) {
-    .services__carousel-inner-container {
-        grid-template-columns: repeat(3, 1fr);
+    .services-subheading {
+        margin-top: 30px;
     }
 }
 
-.services__carousel-card-container{
-    padding: auto 15px;
+@media (min-width: 922px) {
+    .services__carousel-inner-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .services__carousel-inner-container div:nth-child(4n) {
+        display: none;
+    }
 }
 
 .services__carousel-card {
@@ -106,10 +105,27 @@
     text-decoration: none;
     color: var(--link-color);
     font-size: 13.5px;
-    font-weight: 800;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: .03em;
     cursor: pointer;
 }
 
 .services__carousel-cards-link:hover {
     text-decoration: underline;
+}
+
+.arrow-prev {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    fill: var(--h3-text-color);
+    transform: rotateY(180deg);
+}
+
+.arrow-next {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    fill: var(--h3-text-color);
 }
