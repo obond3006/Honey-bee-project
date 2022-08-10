@@ -1,13 +1,12 @@
 .container__nav {
     width: 100%;
-    box-sizing: border-box;
+    display: flex;
     background-color: bisque;
     font-stretch: 100%;
-    background-color: inherit;
 }
 
 .logo__container {
-    box-sizing: border-box;
+    display: flex;
 }
 
 .header__logo {
@@ -16,8 +15,7 @@
 }
 
 .links_container {
-    display: block;
-    flex-direction: row-reverse
+    display: flex;
 }
 
 .text-link {
@@ -25,9 +23,12 @@
 }
 
 .text-link:hover {
-    color: rgb(red, green, blue);
+    color: orange;
+    padding: 1;
+    border: bottom 2px;
 }
 
 .Bunner__button button:hover {
     color: white;
+    background-color: orange;
 }
