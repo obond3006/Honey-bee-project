@@ -96,4 +96,5 @@
 
 .services__carousel-cards-link:hover {
     text-decoration: underline;
+    color: var(--link-color);
 }
