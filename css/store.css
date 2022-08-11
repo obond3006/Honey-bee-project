@@ -31,22 +31,19 @@
     margin: 10px;
 }
 
-.store__decription {
+.store__description {
     font-family: Open Sans, sans-serif;
     font-size: 18px;
     margin:auto;
     padding: 15px;
-    max-width: 770px;
+    max-width: 800px;
+    text-align: center;
 }
 
 .store__header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.carousel__arrow{
-    justify-content: center;
 }
 
 .store__products-carousel-element {
@@ -64,7 +61,7 @@
 
 .carousel-product-name {
     color: #939393;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -116,6 +113,9 @@
     .main__store{
         padding: 105px 4% 55px;
     }
+    .carousel-product-name {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -125,5 +125,8 @@
 
     .main__store{
         padding: 55px 10% 80px;
+    }
+    .carousel-product-name {
+        font-size: 20px;
     }
 }
