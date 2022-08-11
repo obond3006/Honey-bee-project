@@ -43,6 +43,7 @@
     height: 4px;
     width: 50px;
     background-color: var(--h2-text-color);
+    margin: 10px;
 }
 
 .store__decription {
