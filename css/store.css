@@ -96,9 +96,7 @@
     border:0;
     text-transform: capitalize;
     font-weight: bold;
-    text-align: center;
-    align-self: center;
-    margin-top: 20px;
+    align-self:initial;
 }
 
 .buy-product:hover{
@@ -107,24 +105,24 @@
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .store__products-carousel-element{
+    /* .store__products-carousel-element{
         max-width: 320px;
         padding: 10px;
-    }
-    .store__products-carousel{
+    } */
+    /* .store__products-carousel{
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-    }
+    } */
     .main__store{
         padding: 105px 4% 55px;
     }
 }
 
 @media (min-width: 1025px) {
-    .store__products-carousel{
+    /* .store__products-carousel{
         display:flex;
-    }
+    } */
 
     .main__store{
         padding: 55px 10% 80px;
