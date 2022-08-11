@@ -2,10 +2,10 @@ $('.responsive').slick({
     dots: true,
     infinite: true,
     speed: 300,
+    mobileFirst: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: 'linear',
-    mobileFirst: true,
     responsive: [
       {
         breakpoint: 768,
