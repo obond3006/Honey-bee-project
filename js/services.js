@@ -30,6 +30,8 @@ $('.services-responsive').slick({
     ]
   });
 
+  // Store slider:
+
   $('.responsiveStore').slick({
     infinite: true,
     speed: 300,
