@@ -21,6 +21,7 @@
     max-width: 1200px;
     display: grid;
     justify-content: center;
+    margin: auto;
 }
 
 .about-info__container{
