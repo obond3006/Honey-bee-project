@@ -1,18 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*width: 100%;*/
-}
-
-:root {
-    --text-color: rgb(65, 57, 57);
-    --h2-text-color: #eb6d2f;
-    --h3-text-color: #5a3733;
-    scroll-behavior: smooth;
-    font-family: "Open Sans", sans-serif;
-}
-
 .main__store {
     /*Double-check this!*/
         background-image: url("../img/store/background-bees.jpg");
@@ -91,6 +76,7 @@
 .buy-product {
     color: white;
     background-color: var(--h2-text-color);
+    text-decoration: none;
     padding: 10px 25px;
     border-radius: 8px;
     border:0;
@@ -111,6 +97,7 @@
 
 .buy-product:hover{
     background-color: orange;
+    color: white;
 }
 
 
