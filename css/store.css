@@ -104,10 +104,10 @@
     display: flex;
 }
 
-.slick-dots{
-    /* Must look for a workaround the !important command */
+/* .slick-dots{
+    Must look for a workaround the !important tag
     display: none !important; 
-}
+} */
 
 .buy-product:hover{
     background-color: orange;
