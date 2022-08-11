@@ -96,7 +96,17 @@
     border:0;
     text-transform: capitalize;
     font-weight: bold;
-    align-self:initial;
+    margin:auto;
+}
+
+.slick-initialized .slick-slide
+{
+    display: flex;
+}
+
+.slick-dots{
+    /* Must look for a workaround the !important command */
+    display: none !important; 
 }
 
 .buy-product:hover{
