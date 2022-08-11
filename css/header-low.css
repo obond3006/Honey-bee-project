@@ -1,12 +1,13 @@
 .container__nav {
+    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: cover;
-    font-stretch: 100%;
     padding: 30px 15px;
-    }
+    font-stretch: 100%;
+}
 
 .logo__container {
     display: flex; 
@@ -36,8 +37,8 @@
 }
 
 .text-link:hover {
-    color: orangered;
-    border-bottom: orange;
+    color: #eb6d2f;
+    border-bottom: 2px solid orange;
 }
 
 .Bunner__button {
@@ -50,12 +51,12 @@
    font-weight: 700;
    text-decoration: none;
    border-radius: 8px;
-   border: 2px solid orangered;
+   border: 2px solid #eb6d2f;
 }
 
 .Bunner__button:hover {
     color: white;
-    background-color:orangered;
+    background-color:#eb6d2f;
 }
 .upper__theme {  
     background-image: url(../img/header/beefon.jpg);
