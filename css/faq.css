@@ -13,7 +13,6 @@
     display: flex;
     margin: auto;
     padding: 0;
-    overflow: hidden;
 }
 
 .faq-image {
@@ -22,7 +21,6 @@
     height: 100%;
     object-fit: cover;
     object-position: 51.754% 57.685%;
-
 }
 
 .faq__text {
