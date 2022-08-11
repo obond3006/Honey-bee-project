@@ -32,35 +32,17 @@
 
 .services__carousel-outter-container {
     max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     margin: 60px auto;
+    padding: 20px;
 }
 
-.services__carousel-inner-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 2%;    
+.services__carousel-card-container {
+    padding: 0 15px;
 }
 
 @media (min-width: 768px) {
-    .services__carousel-inner-container {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2%;
-    }
-
     .services-subheading {
         margin-top: 30px;
-    }
-}
-
-@media (min-width: 922px) {
-    .services__carousel-inner-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .services__carousel-inner-container div:nth-child(4n) {
-        display: none;
     }
 }
 
@@ -113,19 +95,4 @@
 
 .services__carousel-cards-link:hover {
     text-decoration: underline;
-}
-
-.arrow-prev {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    fill: var(--h3-text-color);
-    transform: rotateY(180deg);
-}
-
-.arrow-next {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    fill: var(--h3-text-color);
 }
