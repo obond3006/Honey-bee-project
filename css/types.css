@@ -14,7 +14,7 @@
 
 .types-section-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: baseline;
@@ -76,6 +76,9 @@
     .need-hide {
         display: flex;
     }
+    .types-section-content {
+        flex-direction: row; 
+    } 
 }
 
 @media (min-width:922px) { 
@@ -97,6 +100,9 @@
     .need-hide {
         display: flex;
     }
+    .types-section-content {
+        flex-direction: row; 
+    } 
 }
 
 .honney-caption-collor {
