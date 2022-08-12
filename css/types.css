@@ -1,7 +1,10 @@
 .video-poster {
+    background-image: url("img/types/bg_types.webp");   
+}
+
+.video-poster {
     display: flex;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .video-poster img {
@@ -51,7 +54,19 @@
         margin-top: 5px;
     }
     .video-poster {
-        max-height: 200px;
+        height: 350px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+    .need-hide {
+        display: none;
     }
 }
 
@@ -60,7 +75,19 @@
         margin-top: 20px;
     }
     .video-poster {
-        max-height: 300px;
+        height: 500px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+    .need-hide {
+        display: flex;
     }
 }
 
@@ -69,7 +96,19 @@
         margin-top: 40px;
     }
     .video-poster {
-        max-height: 400px;
+        height: 650px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+    .need-hide {
+        display: flex;
     }
 }
 
