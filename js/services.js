@@ -6,6 +6,7 @@ $('.services-responsive').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: 'linear',
+    respondTo: 'slider',
     responsive: [
       {
         breakpoint: 768,
@@ -24,9 +25,6 @@ $('.services-responsive').slick({
         }
       }
       
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
 
