@@ -1,20 +1,25 @@
 .review {
     background-color: #5a3733;
     background-size: cover;
-    padding: 0 24px;
-    margin: auto;
+    padding: 90 24px;
+    text-align: center;
+}
+
+.review_container {
+    display: inline-block;
+    flex-wrap: wrap;
+    min-width: 270px;
+    max-width: 800px;
 }
 
 .review__header {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    min-width: 270px;
-    max-width: 770px;
 }
 
 .header__first-header {
-    margin-top: 50px;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: rgb(247, 189, 0);
@@ -22,11 +27,14 @@
 }
 
 .header__second-header {
-    margin-top: 20px;
     font-family: "Signika Negative", sans-serif;
     font-size: 38px;
     color: white;
-    text-align: center;
+    margin-top: 30px;
+}
+
+.line__block {
+    padding: 12px 0;
 }
 
 .lines {
@@ -39,25 +47,27 @@
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
     color: white;
-    text-align: center;
+    padding: 0 25px;
+    line-height: 1.5;
 }
 
-.review__container {
+.review__content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 60px;
+    max-width: 1580px;
+    margin: auto;
 }
 
 .container__review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: rgb(102, 59, 54);
-    background-size: cover;
-    margin: 15px auto;
-    width: 297px;
-    height: 550px;
-    padding: 50px 15px;
-    text-align: center;
-
+    margin: 20px 20px;
+    padding: 35px 30px;
+    max-width: 400px;
 }
 
 .review__photo {
@@ -92,9 +102,37 @@
 }
 
 
-@media (min-width: 320px) {
-    
+@media (min-width: 320px){
+    .review {
+        padding: 90px 24px;
+    }
+    .lines {
+        width: 33px;
+    }
+    .review__photo {
+        width: 70px;
+        height: 70px;
+    }
 }
 
+@media (min-width: 768px) {
+    .review {
+        padding: 105px 32px;
+    }
+    .lines {
+        width: 52px;
+    }
+    .review__photo {
+        width: 120px;
+        height: 120px;
+    }
+}
 
-
+@media (min-width: 992px) {
+    .review {
+        padding: 120px 40px;
+    }
+    .lines {
+        width: 77px;
+    }
+}
