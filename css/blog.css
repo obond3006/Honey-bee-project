@@ -59,6 +59,7 @@
     box-sizing: border-box;
     padding: 60px 0 60px 0;
 }
+<<<<<<< HEAD
 .conteiner__blog__h{
     font-size: 14px;
     text-transform: uppercase;
@@ -117,5 +118,13 @@
 @media (max-width:600px;){
     .conteiner__blog__h{
         padding: 15px 0 15px 0;
+=======
+@media (min-width: 768px){
+    .numbers__conteiner {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        max-width: 50%;
+>>>>>>> 334c7596a06016effec90b936d5be387c6280e22
     }
 }
