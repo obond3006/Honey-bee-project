@@ -37,6 +37,7 @@ $('.services-responsive').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: 'linear',
+    respondTo: 'slider',
     responsive: [
       {
         breakpoint: 768,

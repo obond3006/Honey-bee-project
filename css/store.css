@@ -84,15 +84,10 @@
     justify-content: flex-end;
 }
 
-/* .slick-initialized .slick-slide
+.store__products .slick-initialized .slick-slide
 {
     display: flex;
-} */
-
-/* .slick-dots{
-    Must look for a workaround the !important tag
-    display: none !important; 
-} */
+}
 
 .buy-product:hover{
     background-color: orange;
