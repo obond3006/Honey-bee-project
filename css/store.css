@@ -84,10 +84,10 @@
     justify-content: flex-end;
 }
 
-.slick-initialized .slick-slide
+/* .slick-initialized .slick-slide
 {
     display: flex;
-}
+} */
 
 /* .slick-dots{
     Must look for a workaround the !important tag
