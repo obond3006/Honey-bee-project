@@ -8,101 +8,39 @@
     width: 100%;
 }
 
-.types-section {
+.types-section-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 320px;
     background: #f9f4f0;
 }
 
-.types-section-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: baseline;
-}
-
 .types-section-content-about {
-    margin: auto;  
-}
+    justify-content: center;
 
+}
 .types-section-carusel {
+    min-width: 320px;
+}
+.types-section-carusel-item {
     display: flex;
-    margin: auto;
-    flex-grow: 2;
 }
 
 .types-section-carusel-card {
-    background: white;
-    margin: auto;
-    margin-top: 40px;
-}
-
-@media (min-width:322px) { 
-    .types-section-carusel-card {
-        margin-top: 5px;
-    }
-    .video-poster {
-        height: 350px;   
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        margin: auto;
-        object-fit: cover;  
-        object-position: 80% 50%;
-    }
-    .need-hide {
-        display: none;
-    }
-}
-
-@media (min-width:768px) { 
-    .types-section-carusel-card {
-        margin-top: 20px;
-    }
-    .video-poster {
-        height: 500px;   
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        margin: auto;
-        object-fit: cover;  
-        object-position: 80% 50%;
-    }
-    .need-hide {
-        display: flex;
-    }
-    .types-section-content {
-        flex-direction: row; 
-    } 
-}
-
-@media (min-width:922px) { 
-    .types-section-carusel-card {
-        margin-top: 40px;
-    }
-    .video-poster {
-        height: 650px;   
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        margin: auto;
-        object-fit: cover;  
-        object-position: 80% 50%;
-    }
-    .need-hide {
-        display: flex;
-    }
-    .types-section-content {
-        flex-direction: row; 
-    } 
+    background: white; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    min-width: 160px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 20px;
 }
 
 .honney-caption-collor {
@@ -142,18 +80,9 @@
     height: 18px;
 }
 
-.types-section-carusel-card {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 20%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: var(--card-background-color);
-    border-radius: 10px;
-    padding: 2%;
+.item-caption {
+    min-width: 200px;
+    max-width: 400px;
 }
 
 .carusel-card-item {
@@ -179,4 +108,66 @@
 .shop-now:hover{
     background-color: orange;
     color: white;
+}
+
+@media (min-width:322px) { 
+    .types-section-carusel-card {
+        margin-top: 5px;
+    }
+    .video-poster {
+        height: 350px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+}
+
+@media (min-width:768px) { 
+    .types-section-carusel-card {
+        margin-top: 20px;
+    }
+    .video-poster {
+        height: 500px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+
+    .types-section-content {
+        flex-direction: row; 
+    } 
+}
+
+@media (min-width:922px) { 
+    .types-section-carusel-card {
+        margin-top: 40px;
+    }
+    .video-poster {
+        height: 650px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+
+    .types-section-content {
+        flex-direction: row; 
+    } 
 }
