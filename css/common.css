@@ -13,6 +13,8 @@
     --h3-text-color: #5a3733;
     --h1-text-color: #5a3733;
     --background-color: #f9f4f0;
+    --link-color: #ffd832;
+    --light-card-background-color: #fff;
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
 }
