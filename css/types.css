@@ -1,3 +1,23 @@
+.video-poster {
+    display: flex;
+    margin: auto;
+    
+}
+
+.video-poster img {
+    align-items: center;
+    object-fit: cover;   
+    width: 100%;
+    position: relative;
+}
+
+.poster-caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 .types-section {
     background: #f9f4f0;
 }
@@ -11,9 +31,7 @@
 }
 
 .types-section-content-about {
-    margin: auto;
-    
-
+    margin: auto;  
 }
 
 .types-section-carusel {
@@ -25,6 +43,34 @@
 .types-section-carusel-card {
     background: white;
     margin: auto;
+    margin-top: 40px;
+}
+
+@media (min-width:322px) { 
+    .types-section-carusel-card {
+        margin-top: 5px;
+    }
+    .video-poster {
+        max-height: 200px;
+    }
+}
+
+@media (min-width:768px) { 
+    .types-section-carusel-card {
+        margin-top: 20px;
+    }
+    .video-poster {
+        max-height: 300px;
+    }
+}
+
+@media (min-width:922px) { 
+    .types-section-carusel-card {
+        margin-top: 40px;
+    }
+    .video-poster {
+        max-height: 400px;
+    }
 }
 
 .honney-caption-collor {

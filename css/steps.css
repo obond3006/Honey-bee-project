@@ -43,15 +43,15 @@
 
 .steps__line {
     height: 4px;
-    width: 50px;
-    background-color: var(--h2-text-color);
+    width: 70px;
+    background-color: #eb6d2f;
+    margin: 20px;
 }
 
 .steps__decription {
-    font-family: Open Sans, sans-serif;
+    color: rgb(65, 57, 57);
     font-size: 18px;
-    text-align: center;
-    padding: 15px;
+    line-height: 28.8px;
 }
 
 .cards__section{

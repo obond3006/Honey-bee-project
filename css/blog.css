@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@700&display=swap');
-.conteiner__blog{
-    background: url(../img/blog/bg-4.jpg);
-}
 .numbers__conteiner{
-    background-color:rgba(255, 166, 50, 0.432);
+    background-color:#f4ebe4;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 0 0;
     flex: 1;
     padding: 50px 0 55px 0;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 .numbers{
     display: flex;
@@ -55,13 +53,78 @@
     }
 }
 
-element.style {
+.conteiner__blog{
+    background: url(../img/blog/bg-4.jpg);
+    margin: auto;
+    box-sizing: border-box;
+    padding: 60px 0 60px 0;
 }
+<<<<<<< HEAD
+.conteiner__blog__h{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin:auto;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blog__h{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.blog__line{
+    height: 4px;
+    width: 50px;
+    background-color: var(--h2-text-color);
+    margin: 15px 0 15px 0;
+}
+.blog__conteiner{
+    flex: 1;
+    padding: 50px 0 55px 0;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    background: #ffffff;
+    border-bottom:#0000001c;
+    border-width: 30px;
+}
+.conteiner__blog__news{
+    margin: 15px 15px 15px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1 fr;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 30px 0;
+    flex: 1;
+    padding: 30px 30px 55px 30px;
+    justify-content: space-around;
+    text-align: left;
+}
+@media (max-width:600px;){
+    .conteiner__blog__h{
+        padding: 15px 0 15px 0;
+=======
 @media (min-width: 768px){
     .numbers__conteiner {
         -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
         max-width: 50%;
+>>>>>>> 334c7596a06016effec90b936d5be387c6280e22
     }
 }

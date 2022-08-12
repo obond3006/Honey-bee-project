@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="icon" type="image/x-icon" href="img/favicon/bee-favicon.png">
     <link rel="stylesheet" href="css/index.css">
     <title>HoneyBee</title>
@@ -24,7 +27,7 @@
                     <a href="#store" class="text-link">Store</a>
                     <a href="#testimonials" class="text-link">Testimonials</a>
                     <a href="#contact" class="text-link">Contact Us</a>
-                    <a href="#buy" class="Bunner__button button">Buy Honey</a>
+                    <a href="#buy" class="Bunner__button">Buy Honey</a>
                 </div>
             </div>
         </nav>
@@ -34,22 +37,24 @@
         <!--Yuriy Lavrin start-->
         <section class="upper__theme">
             <div class="upper__container">
-                <h2 class="header__small">
-                    100% organic honey
-                </h2>
-                <h3 class="header__big">
-                    HONEYBEE
-                </h3>
-                <div class="line__block">
-                    <div class="myline"></div>
+                <div class="upper">
+                    <h2 class="header__small">
+                        100% organic honey
+                    </h2>
+                    <h3 class="header__big">
+                        HONEYBEE
+                    </h3>
+                    <div class="line__block">
+                        <div class="line"></div>
+                    </div>
+                    <p class="paragraph__text">
+                        We offer a great assortment of pure raw honey from our swaths in
+                    </p> 
+                    <p class="paragraph__text">  
+                        California. Order honey from our honeycombs!
+                    </p>
+                    <a href="#buynow" class="mybutton">Buy Now</a>
                 </div>
-                <p class="paragraph__text">
-                    We offer a great assortment of pure raw honey from our swaths in
-                </p> 
-                <p class="paragraph__text">  
-                    California. Order honey from our honeycombs!
-                </p>
-                <a href="#buynow" class="mybutton">Buy Now</a>
             </div>
         </section>
 
@@ -73,19 +78,8 @@
                 </p>
             </div>
             <div class="services__carousel-container">
-                <div class="services__carousel-outter-container">
-                    <!-- Previous button -->
-                    <div class="slider-arrow">
-                        <svg class="arrow-prev" viewBox="0 0 30 30">
-                            <defs>
-                                <path
-                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                    id="a-1659455820592"></path>
-                            </defs>
-                            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1659455820592"></use>
-                        </svg>
-                    </div>
-                    <div class="services__carousel-inner-container">
+                <div class="services__carousel-inner-container">
+                    <div class="services-responsive">
                         <div class="services__carousel-card-container">
                             <div class="services__carousel-card">
                                 <img class="services__carousel-img" src="img/services/honey-bee.svg"
@@ -138,17 +132,6 @@
                                 <a class="services__carousel-cards-link" href="#contacts">Learn More</a>
                             </div>
                         </div>
-                    </div>
-                    <!-- Next button -->
-                    <div class="slider-arrow">
-                        <svg class="arrow-next" viewBox="0 0 30 30">
-                            <defs>
-                                <path
-                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                    id="a-1659455820593"></path>
-                            </defs>
-                            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1659455820592"></use>
-                        </svg>
                     </div>
                 </div>
             </div>
@@ -205,17 +188,15 @@
                         <div class="about__item">
                             <div class="about__icon">
                                 <div class="icon">
-                                    <img src="img/about/about-bee-icon.svg" alt="bee icon">
+                                    <img src="img/about/about-medal-icon.svg" alt="bee icon">
                                 </div>
                             </div>
                             <div class="about__description">
                                 <h4>
-                                    Natural Environment
+                                    Certified Honey Production
                                 </h4>
                                 <p>
-                                    Our swaths are located in ecologically clean areas in California. The bees feel
-                                    really happy
-                                    there!
+                                    We produce 100% organic raw honey without pasteurization or filtration processes.
                                 </p>
                             </div>
                         </div>
@@ -223,17 +204,15 @@
                         <div class="about__item">
                             <div class="about__icon">
                                 <div class="icon">
-                                    <img src="img/about/about-bee-icon.svg" alt="bee icon">
+                                    <img src="img/about/about-scooter-icon.svg" alt="bee icon">
                                 </div>
                             </div>
                             <div class="about__description">
                                 <h4>
-                                    Natural Environment
+                                    Fast Shipping
                                 </h4>
                                 <p>
-                                    Our swaths are located in ecologically clean areas in California. The bees feel
-                                    really happy
-                                    there!
+                                    We are really fast at shipping, so you can enjoy our honey in a couple of days after your order!
                                 </p>
                             </div>
                         </div>
@@ -246,10 +225,11 @@
 
         <!--VolodymyrLys start-->
         <div class="video">
-            <video src="" autoplay poster="">
-                <p>HOW HONEY IS MADE</p>
-            </video>
-        </div>
+            <div class="video-poster">            
+                <img src="img/types/bg_types.webp">
+                <p class="poster-caption">HOW HONEY IS MADE</p>
+            </div>         
+        </div>        
         <!--VolodymyrLys end-->
 
         <!--VolodymyrLys start-->
@@ -310,109 +290,103 @@
 
         <section id="store" class="main__store">
             <div class="store__header">
-                <h2 class="store__heading">
+                <h2 class="section-heading">
                     Store
                 </h2>
-                <h3 class="store__subheading">
+                <h3 class="section-subheading">
                     OUR HONEY
                 </h3>
 
                 <div class="store__line"></div>
 
-                <p class="store__decription">
+                <p class="store__description">
                     Shop our best honey bottled this season. We produce only natural, raw, and sweet honey without
                     any impurities or additives. If you want to buy honey, hurry up!
                 </p>
             </div>
             <div class="store__products">
-                <div class="store__products-carousel">
+                <div class="store__products-carousel responsiveStore">
                     <div class="store__products-carousel-element">
                         <a href="#"><img class="carousel-product-thumb" src="img/store/wildflower-honey.jpeg"
                                 alt="wildflower-honey"></a>
                         <h4 class="carousel-product-name">Wildflower Honey</h4>
                         <h5 class="carousel-product-price">$7,00USD</h5>
-                        <span class="buy-product">Buy now</span>
+                        <a href="#" class="buy-product">Buy now</a>
                     </div>
                     <div class="store__products-carousel-element">
-                        <a href="#"><img class="carousel-product-thumb" src="img/store/blossom-honey.jpeg"
+                        <img class="carousel-product-thumb" src="img/store/blossom-honey.jpeg"
                                 alt="blossom-honey"></a>
                         <h4 class="carousel-product-name">Blossom Honey</h4>
                         <h5 class="carousel-product-price">$20,00USD</h5>
-                        <span class="buy-product">Buy now</span>
+                        <a href="#" class="buy-product">Buy now</a>
                     </div>
                     <div class="store__products-carousel-element">
                         <a href="#"><img class="carousel-product-thumb" src="img/store/clover-honey.jpeg"
                                 alt="clover-honey"></a>
                         <h4 class="carousel-product-name">Clover Honey</h4>
                         <h5 class="carousel-product-price">$8,00USD</h5>
-                        <span class="buy-product">Buy now</span>
+                        <a href="#" class="buy-product">Buy now</a>
                     </div>
                     <div class="store__products-carousel-element">
                         <a href="#"><img class="carousel-product-thumb" src="img/store/buckwheat-honey.jpeg"
                                 alt="buckwheat-honey"></a>
                         <h4 class="carousel-product-name">Buckwheat Honey</h4>
                         <h5 class="carousel-product-price">$10,00USD</h5>
-                        <span class="buy-product">Buy now</span>
+                        <a href="#" class="buy-product">Buy now</a>
                     </div>
-                    <!-- <div class="store__products-carousel-element">
+                    <div class="store__products-carousel-element">
                         <a href="#"><img class="carousel-product-thumb" src="img/store/citrus-blossom-honey.jpeg"
                                 alt="citrus-blossom-honey"></a>
                         <h4 class="carousel-product-name">Citrus Blossom Honey</h4>
                         <h5 class="carousel-product-price">$15,00USD</h5>
-                        <span class="buy-product">Buy now</span>
-                    </div> -->
+                        <a href="#" class="buy-product">Buy now</a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!--Mike Litovka end-->
 
-        <!--Anna start-->
-        <div class="steps__hunny-line">
+         <!--Anna start-->
+         <div class="steps__hunny-line">
         </div>
         <section id="steps" class="main__steps">
             <div class="steps__header">
                 <h2 class="section-heading">
                     HOW TO ORDER
                 </h2>
-                <h3 class="steps__subheading">
+                <h3 class="section-subheading">
                     WANT TO ORDER HONEY?
                 </h3>
                 <div class="steps__line"></div>
-                <p class="steps__description">
-                    We are a small family-owned swath chain in California and we produce a limited amount of honey every
-                    season. If you want to buy honey, the information below is for you:
+                <p class="section__decription">
+                We are a small family-owned swath chain in California and we produce a limited amount of honey every season. If you want to buy honey, the information below is for you:
                 </p>
                 <!--Anna start-->
-                <div id=cards class="cards__section">
-                    <div class="cards__wrapper"></div>
-                    <div class="cards__container"></div>
-                    <img src="img/steps/Wait.svg" alt="Wait">
-                    <h3 class="steps__Wait-Bit">1. Wait a Bit</h3>
-                    <p class="steps__Wait-text">
-                        We harvest honey approximately 4 times a year, excluding winter.
-                    </p>
-
-                    <div class="cards__container"></div>
-                    <img src="img/steps/Choose.svg" alt="Choose">
-                    <h3 class="steps__Choose-Type">2. Choose Honey Type</h3>
-                    <p class="steps__Choose-text">
-                        Depending on the season, there may be different types of recently bottled honey on our site.
-                    </p>
-
-                    <div class="cards__container"></div>
-                    <img class="steps__Order" src="img/steps/Order.svg" alt="Order">
-                    <h3 class="steps__Order-Enjoy">3. Order & Enjoy</h3>
-                    <p class="steps__Order-text">
-                        We are really quick at shipping, so you'll get your parcel in a couple of days.
-                    </p>
+               
+                <div class="cards__container"></div>
+                    <div class="cards__section" class="cards__container">
+                        <img src="img/steps/Wait.svg" class="cards__container" alt="Wait">
+                        <h3 class="steps__Wait-Bit">1. Wait a Bit</h3>
+                        <p class="steps__Wait-text">We harvest honey approximately 4 times a year, excluding winter.</p>
+                    <div class="cards__section" class="cards__container">
+                        <img src="img/steps/Choose.svg" class="cards__container" alt="Choose">
+                        <h3 class="steps__Wait-Bit">2. Choose Honey Type</h3>
+                        <p class="steps__Wait-text">Depending on the season, there may be different types of recently bottled honey on our site.</p>
+                    <div class="cards__section" class="cards__container">
+                        <img src="img/steps/Order.svg" class="cards__container" alt="Order">
+                        <h3 class="steps__Wait-Bit">3. Order & Enjoy</h3>
+                        <p class="steps__Wait-text">We are really quick at shipping, so you'll get your parcel in a couple of days.</p>
+                                  
                 </div>
+                  </div>
                 <a href="#contact" class="button-request">Have a Special Request?</a>
             </div>
 
         </section>
 
         <!--Anna end-->
+
 
         <!--Rostyslav start-->
         <div class="review">
@@ -484,14 +458,14 @@
         <!--Sonia end-->
         <!--Sonia start-->
         <section class="conteiner__blog">
-            <div>
-                <h2>BLOG</h2>
-                <h3>LEARN MORE ABOUT HONEYBEE</h3>
-                <div class="line"></div>
-                <p>Think that honey production is boring? Not at all! Read our blog and the latest news from our swaths
+            <div class="conteiner__blog__h">
+                <h2 class="blog__h">BLOG</h2>
+                <h3 style="font-size: 35px;">LEARN MORE ABOUT HONEYBEE</h3>
+                <div class="blog__line"></div>
+                <p style="font-size: 18px;">Think that honey production is boring? Not at all! Read our blog and the latest news from our swaths
                     to learn more!</p>
             </div>
-
+         <div class="conteiner__blog__news">
             <div class="blog__conteiner">
                 <div class="blog__conteiner__img">
                     <img src="img/testimonials/news-1.jpg" alt="First News">
@@ -524,6 +498,8 @@
                 <h3 class="blog__conteiner_h">How is Honey Harvested?</h3>
                 <p>Learn about how our beekeepers harvest honey from honeycomb frames.</p>
             </div>
+         </div>
+
         </section>
         <!--Sonia end-->
 
@@ -556,7 +532,8 @@
                             <p class="accordion-description">Raw honey is honey as it is in the beehive. Raw honey is
                                 made by extracting honey
                                 from the honeycombs and separating it from impurities. It doesn't contain any hidden
-                                sugars and is not pasteurized or processed.</p>
+                                sugars and is not pasteurized or processed.
+                            </p>
                         </div>
                     </div>
                     <div class="accordion-line">
@@ -569,7 +546,8 @@
                         <div class="accordion-content">
                             <p class="accordion-description">We sell pure organic honey but it can cause allergies,
                                 indeed. Typical symptoms are
-                                the same as common pollen allergy symptoms: runny nose, sneezing, and swelling.</p>
+                                the same as common pollen allergy symptoms: runny nose, sneezing, and swelling.
+                            </p>
                         </div>
                     </div>
                     <div class="accordion-line">
@@ -582,7 +560,8 @@
                         <div class="accordion-content">
                             <p class="accordion-description">We accept Visa and MasterCard cards issued by any American
                                 bank. You can also use
-                                PayPal.</p>
+                                PayPal.
+                            </p>
                         </div>
                     </div>
                     <div class="accordion-line">
@@ -597,7 +576,8 @@
                                 harvest seasons. Our
                                 capabilities are limited to around 3000 jars a year. Therefore, depending on the
                                 season, there may be different honey in our assortment, and some products may be
-                                temporarily unavailable.</p>
+                                temporarily unavailable.
+                            </p>
                         </div>
                     </div>
                     <div class="accordion-line">
@@ -663,7 +643,8 @@
                                 <iframe class="contact-map"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d377643.14470267977!2d-71.2504564990726!3d42.31400894662551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA%2C%20USA!5e0!3m2!1sen!2sua!4v1660037975872!5m2!1sen!2sua"
                                     allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
                             </div>
                         </div>
                     </div>
@@ -726,6 +707,12 @@
         </div>
     </footer>
     <!--Rostyslav end-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/services.js"></script>
+
 </body>
 
 </html>

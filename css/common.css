@@ -26,7 +26,9 @@
 .section-heading {
     color: var(--h2-text-color);
     font-size: 14px;
+    font-weight: 700;
     letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
 
 .section-subheading {
