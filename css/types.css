@@ -46,6 +46,33 @@
     margin-top: 40px;
 }
 
+@media (min-width:322px) { 
+    .types-section-carusel-card {
+        margin-top: 5px;
+    }
+    .video-poster {
+        max-height: 200px;
+    }
+}
+
+@media (min-width:768px) { 
+    .types-section-carusel-card {
+        margin-top: 20px;
+    }
+    .video-poster {
+        max-height: 300px;
+    }
+}
+
+@media (min-width:922px) { 
+    .types-section-carusel-card {
+        margin-top: 40px;
+    }
+    .video-poster {
+        max-height: 400px;
+    }
+}
+
 .honney-caption-collor {
     color: #eb6d2f;
     font-size: 14px;
