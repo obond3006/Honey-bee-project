@@ -1,9 +1,8 @@
 .video-poster {  
-    background-image: url("/img/bg_types.jpg");
+    background-image: url("img/types/bg_types.webp");
 }
 
 .poster-caption {
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
