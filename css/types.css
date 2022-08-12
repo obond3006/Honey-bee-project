@@ -20,11 +20,11 @@
     display: flex;
     margin: auto;
     flex-grow: 2;
-    margin-top: 40px;
 
 .types-section-carusel-card {
     background: white;
     margin: auto;
+    margin-top: 40px;
 }
 
 .honney-caption-collor {
