@@ -10,21 +10,22 @@
     justify-content: center;
 }
 
-
 .gallery-wrapper img{
-   width: 250px;
-   padding: 5px;
-   border-radius: 8px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 8px;
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
 @media (min-width:768px) {
-    .gallery-img{
+    .gallery-wrapper img{
         flex-basis: 33.333%;
     }
 }
 
-@media (min-width:992px) {
-    .gallery-img{
+@media (min-width:848px) {
+    .gallery-wrapper img{
         flex-basis: 20%;
     }
 }

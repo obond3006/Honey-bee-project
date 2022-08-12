@@ -10,9 +10,8 @@
 }
 
 .faq__image-container {
-    display: flex;
-    margin: auto;
-    padding: 0;
+    display: block;
+    width: 100%;    
 }
 
 .faq-image {
@@ -60,9 +59,19 @@
     }
 
     .faq__image-container {
-        max-width: 570px;
+        position: relative;
+        max-width: 600px;
         padding: 0 15px;
         margin: 0 0 auto auto;
+    }
+
+    .faq-image {
+        position: absolute;
+        display: block;
+        max-width: 570px;
+        max-height: 557px;
+        object-fit: cover;
+        object-position: 51.754% 57.685%;
     }
 
     .faq-subheading {

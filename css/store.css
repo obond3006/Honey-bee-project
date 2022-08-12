@@ -1,18 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*width: 100%;*/
-}
-
-:root {
-    --text-color: rgb(65, 57, 57);
-    --h2-text-color: #eb6d2f;
-    --h3-text-color: #5a3733;
-    scroll-behavior: smooth;
-    font-family: "Open Sans", sans-serif;
-}
-
 .main__store {
     /*Double-check this!*/
         background-image: url("../img/store/background-bees.jpg");
@@ -43,24 +28,22 @@
     height: 4px;
     width: 50px;
     background-color: var(--h2-text-color);
+    margin: 10px;
 }
 
-.store__decription {
+.store__description {
     font-family: Open Sans, sans-serif;
     font-size: 18px;
-    text-align: center;
+    margin:auto;
     padding: 15px;
-    max-width: 770px;
+    max-width: 800px;
+    text-align: center;
 }
 
 .store__header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.carousel__arrow{
-    justify-content: center;
 }
 
 .store__products-carousel-element {
@@ -73,11 +56,12 @@
 .carousel-product-thumb {
     object-fit: contain;
     max-width: 100%;
+    justify-content: flex-start;
 }
 
 .carousel-product-name {
     color: #939393;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -90,42 +74,54 @@
 .buy-product {
     color: white;
     background-color: var(--h2-text-color);
+    text-decoration: none;
     padding: 10px 25px;
     border-radius: 8px;
     border:0;
     text-transform: capitalize;
     font-weight: bold;
-    text-align: center;
-    align-self: center;
-    margin-top: 20px;
+    margin:auto;
+    justify-content: flex-end;
+}
+
+.store__products .slick-initialized .slick-slide
+{
+    display: flex;
 }
 
 .buy-product:hover{
     background-color: orange;
+    color: white;
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .store__products-carousel-element{
+    /* .store__products-carousel-element{
         max-width: 320px;
         padding: 10px;
-    }
-    .store__products-carousel{
+    } */
+    /* .store__products-carousel{
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-    }
+    } */
     .main__store{
         padding: 105px 4% 55px;
+    }
+    .carousel-product-name {
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1025px) {
-    .store__products-carousel{
+    /* .store__products-carousel{
         display:flex;
-    }
+    } */
 
     .main__store{
         padding: 55px 10% 80px;
+    }
+    .carousel-product-name {
+        font-size: 20px;
     }
 }

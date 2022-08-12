@@ -1,15 +1,19 @@
 
 .upper__theme {
     padding: 130px 0;
+    background-color: #f9f4f0;
  }
- 
-header {  
-    background-image: url(../img/header/beefon.jpg);
-    background-size: cover;
-}
+
+ .upper{
+    padding: 0 24px;
+ }
+
+ .upper__container {
+    max-width: 1200px;
+    margin: auto;
+ }
 
 .header__small {
-    margin: 150px 0 0 307px;
     font-size: 14px;
     line-height: 14px;
     text-align: left;
@@ -18,32 +22,24 @@ header {
 }
 
 .header__big {
-    margin: 0 0 0 307px;
+    
     font-family: "Signika Negative", sans-serif;
-    font-size: 110px;
+    font-size: 50px;
     color: #5a3733;
 }
 
 .paragraph__text {
-    margin: 0 0 0 307px;
+   
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #413939;
   
 }
 
-.myline {
-    margin: 0 0 0 307px;
-    height: 3px;
-    width: 3%;
-    background-color: rgb(235, 109, 47);
-    
-}
-
 .mybutton {
     color: #fff;
     background-color: rgb(235, 109, 47);
-    margin: 0 0 0 307px;
+    
     padding: 17px;
     border-radius: 8px;
     border: none;
@@ -57,3 +53,28 @@ header {
     background-color: #f7bc02;
     transition: 0.5s;
 }
+
+@media (min-width:768px) {
+    .upper__theme {
+        padding: 190px 0;
+     } 
+     .upper__container {
+    padding: 0 36px;
+    }
+}
+
+@media (min-width:922px) {
+    .upper__theme  {
+
+        background-image: url(../img/header/beefon.jpg);
+        background-size: cover;
+        padding: 250px 0;
+    }
+    .upper__container {
+        padding: 0 40px;
+    }
+    .upper {
+       padding: 0++ 40px;
+    }
+}
+
