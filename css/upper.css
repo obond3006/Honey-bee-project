@@ -1,10 +1,17 @@
 
 .upper__theme {
     padding: 130px 0;
-    background-image: url(../img/header/beefon.jpg);
-    background-size: cover;
+    background-color: #f9f4f0;
  }
 
+ .upper{
+    padding: 0 24px;
+ }
+
+ .upper__container {
+    max-width: 1200px;
+    margin: auto;
+ }
 
 .header__small {
     
@@ -58,11 +65,17 @@
 }
 
 @media (min-width:922px) {
-    .upper__theme {
+    .upper__theme  {
+
+        background-image: url(../img/header/beefon.jpg);
+        background-size: cover;
         padding: 250px 0;
     }
     .upper__container {
         padding: 0 40px;
+    }
+    .upper {
+       padding: 0++ 40px;
     }
 }
 
