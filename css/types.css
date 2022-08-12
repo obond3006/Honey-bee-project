@@ -156,6 +156,11 @@
     padding: 2%;
 }
 
+.carusel-card-item {
+    display: block;
+    width: 100px;
+}
+
 .shop-now {
     color: white;
     cursor: pointer;
