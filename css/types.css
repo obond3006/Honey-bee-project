@@ -1,3 +1,23 @@
+.video-poster {
+    display: flex;
+    margin: auto;
+    
+}
+
+.video-poster img {
+    align-items: center;
+    object-fit: cover;   
+    width: 100%;
+    position: relative;
+}
+
+.poster-caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 .types-section {
     background: #f9f4f0;
 }
@@ -11,9 +31,7 @@
 }
 
 .types-section-content-about {
-    margin: auto;
-    
-
+    margin: auto;  
 }
 
 .types-section-carusel {
@@ -21,6 +39,7 @@
     margin: auto;
     flex-grow: 2;
 }
+
 .types-section-carusel-card {
     background: white;
     margin: auto;
