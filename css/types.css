@@ -2,18 +2,6 @@
     background-image: url("img/types/bg_types.webp");   
 }
 
-.video-poster {
-    display: flex;
-    margin: auto;    
-}
-
-.video-poster img {
-    align-items: center;
-    object-fit: cover;   
-    width: 100%;
-    position: relative;
-}
-
 .poster-caption {
     position: absolute;
     left: 0;
@@ -161,4 +149,24 @@
     background-color: var(--card-background-color);
     border-radius: 10px;
     padding: 2%;
+}
+
+.shop-now {
+    color: white;
+    cursor: pointer;
+    background-color: #eb6d2f;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-width: 2px;
+    border-radius: 8px;
+    border:0;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin:auto;
+    justify-content: flex-end;
+}
+
+.shop-now:hover{
+    background-color: orange;
+    color: white;
 }
