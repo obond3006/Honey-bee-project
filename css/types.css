@@ -71,19 +71,16 @@
     margin: auto;
 }
 
-.types-section-line {
-    height: 4px;
-    width: 6vw;
-    min-width: 40px;
-    color: #eb6d2f;
-    margin: 20px auto;
+.types-section-description {
+    margin: 20px 0px 0px 20px; 
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    list-style: none;
 }
 
-.types-section-description {
-    font-size: 18px;
-    line-height: 160%;
-    color: rgba(65, 57, 57, 1);
-    list-style: none;
+.types-section-description li {
+    margin: 15px 0 15px -45px;
 }
 
 .check-icon {
