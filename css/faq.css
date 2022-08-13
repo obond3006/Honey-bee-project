@@ -45,8 +45,21 @@
     transition: margin-bottom 0.3s linear;
 }
 
+.faq-plus-icon {
+    min-width: 15px;
+    margin-left: 20px;
+}
+
 .faq-minus-icon {
     display: none;
+}
+
+.accordion-label.is-open .faq-plus-icon {
+    display: none;
+}
+
+.accordion-label.is-open .faq-minus-icon {
+    display: flex;
 }
 
 .accordion-label.is-open {
