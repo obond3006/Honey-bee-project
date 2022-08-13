@@ -49,9 +49,15 @@
 }
 
 .steps__decription {
-    color: rgb(65, 57, 57);
+    /*color: rgb(65, 57, 57);
     font-size: 18px;
-    line-height: 28.8px;
+    line-height: 28.8px;*/
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    margin:auto;
+    padding: 15px;
+    max-width: 800px;
+    text-align: center;
 }
 
 .cards__section{
@@ -93,6 +99,7 @@
 }
 
 @media (min-width:320px) {
+   
 }
 
 @media (min-width: 768px) {
