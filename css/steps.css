@@ -17,6 +17,7 @@
     background-image: url("../img/store/background-bees.jpg");
     object-fit: contain;
     }
+    
 .steps__heading {
     color: var(--h2-text-color);
     font-size: 14px;
@@ -57,6 +58,15 @@
     text-align: center;
 }
 
+.steps__decription-card{
+    color: var(--h3-text-color);
+    font-size: 30px;
+    line-height: 47.5px;
+    font-weight: 700;
+    font-family: "Signika Negative", sans-serif;
+    margin-top: 10px;
+}
+
 .cards__section{
     margin: auto;
     padding: 60px 24px 60px 24px;
@@ -77,13 +87,14 @@
     flex-direction: column;
 }
 
-.button-request {
+.button-steps {
     color: white;
     background-color: var(--h2-text-color);
     padding: 10px 25px;
     border-radius: 8px;
     border:0;
     text-transform: capitalize;
+    text-decoration: none;
     font-weight: bold;
     text-align: center;
     align-self: center;
@@ -91,12 +102,16 @@
     margin-bottom: 100px;
 }
 
-.button-request:hover{
-    background-color: orange;
+.button-steps:hover{
+    background-color:  #5a3733;
+    color: white;
 }
 
 @media (min-width:320px) {
-   
+    .steps-subheading {
+      margin-left: auto;
+      margin-right: auto
+    }
 }
 
 @media (min-width: 768px) {
@@ -115,7 +130,6 @@
   
     }
   }
-
 
 
 

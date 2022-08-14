@@ -13,6 +13,9 @@
     --h3-text-color: #5a3733;
     --h1-text-color: #5a3733;
     --background-color: #f9f4f0;
+    --contacts-button-hover-background: #f7bc02;
+    --contacts-form-background: #fff;
+    --box-shadow-color: #000;
     --link-color: #ffd832;
     --light-card-background-color: #fff;
     scroll-behavior: smooth;
@@ -49,7 +52,6 @@
     color: var(--text-color);
     font-size: 18px;
     line-height: 28.8px;
-
 }
 
 .line__block{

@@ -6,16 +6,16 @@
 }
 
 .contacts-container{
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     max-width: 1200px;
     margin: auto;
 }
 
 .contacts-main__container{
     margin-top: 50px;
-    padding: 0 55px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contacts__info{
@@ -55,7 +55,6 @@
 }
 
 .contacts__form{
-    display: flex;
     margin-top: 50px;
 }
 
@@ -63,10 +62,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #fff;
+    background-color: var(--contacts-form-background);
     border-radius: 10px;
     padding: 39px 55px;
-    box-shadow: 2px 2px 15px black;
+    box-shadow: 2px 2px 15px var(--box-shadow-color);
 }
 
 .contact-input{
@@ -84,7 +83,7 @@
 }
 
 .contact-button{
-    color: #fff;
+    color: var(--contacts-form-background);
     background-color: var(--h2-text-color);
     margin: 56px 12px 12px 12px;
     padding: 12px;
@@ -95,14 +94,36 @@
 }
 
 .contact-button:hover{
-    background-color: #f7bc02;
+    background-color: var(--contacts-button-hover-background);
 }
 
 
 @media (min-width: 768px){
 
+    .contacts-container{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
     .main__contacts{
         padding: 0 32px;
+    }
+
+    .contacts-info__object{
+        flex-direction: row;
+    }
+
+    .contacts-info__heading{
+        min-width: 30%;
+    }
+
+    .contact-description{
+        padding: 0 8px;
+    }
+
+    .contacts__form{
+        display: flex;
     }
 
     .contacts__form > form{
@@ -117,11 +138,21 @@
 @media (min-width: 922px){
 
     .contacts-container{
-        grid-template-columns: 1fr 1fr;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
     }
 
     .main__contacts{
         padding: 0 40px;
+    }
+
+    .contacts-info__object{
+        flex-direction: row;
+    }
+
+    .contacts-info__heading{
+        min-width: 30%;
     }
 
     .contacts__form > form{
@@ -132,7 +163,3 @@
         width: 370px;
     }
 }
-
-
-
-
