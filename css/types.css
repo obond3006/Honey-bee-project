@@ -170,6 +170,11 @@
     } 
     .display-hide {
         display: block;
+        width: 40%;
+        min-width: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .types-section-carusel-card { 
         width: 40%;
@@ -202,6 +207,11 @@
     } 
     .display-hide {
         display: block;
+        width: 40%;
+        min-width: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .types-section-carusel-card { 
         width: 40%;
