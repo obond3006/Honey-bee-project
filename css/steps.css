@@ -17,6 +17,7 @@
     background-image: url("../img/store/background-bees.jpg");
     object-fit: contain;
     }
+    
 .steps__heading {
     color: var(--h2-text-color);
     font-size: 14px;
@@ -86,7 +87,7 @@
     flex-direction: column;
 }
 
-.button-request {
+.button-steps {
     color: white;
     background-color: var(--h2-text-color);
     padding: 10px 25px;
@@ -100,12 +101,16 @@
     margin-bottom: 100px;
 }
 
-.button-request:hover{
-    background-color: orange;
+.button-steps:hover{
+    background-color:  #5a3733;
+    color: white;
 }
 
 @media (min-width:320px) {
-   
+    .steps-subheading {
+        text-align: center;
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -124,7 +129,6 @@
   
     }
   }
-
 
 
 
