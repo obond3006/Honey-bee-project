@@ -45,7 +45,7 @@
     transition: margin-bottom 0.3s linear;
 }
 
-.faq-plus-icon {
+.faq-plus-icon, .faq-minus-icon {
     min-width: 15px;
     margin-left: 20px;
 }
