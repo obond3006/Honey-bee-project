@@ -33,6 +33,39 @@
     padding: 20px 0;
 }
 
+.accordion-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: margin-bottom 0.3s linear;
+}
+
+.faq-plus-icon, .faq-minus-icon {
+    min-width: 15px;
+    margin-left: 20px;
+}
+
+.faq-minus-icon {
+    display: none;
+}
+
+.accordion-label.is-open .faq-plus-icon {
+    display: none;
+}
+
+.accordion-label.is-open .faq-minus-icon {
+    display: flex;
+}
+
+.accordion-label.is-open {
+    margin-bottom: 25px;
+}
+
 .accordion-label-heading {
     color: var(--h3-text-color);
     font-family: "Signika Negative", sans-serif;
@@ -42,7 +75,9 @@
 }
 
 .accordion-content {
-    margin-top: 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s linear;
 }
 
 .accordion-description {
@@ -50,6 +85,10 @@
     font-size: 16px;
     line-height: 27.2px;
     font-weight: 400;
+}
+
+.faq-hr {
+    margin: 0;
 }
 
 @media (min-width: 768px) {

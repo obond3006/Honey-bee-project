@@ -1,107 +1,93 @@
-.video-poster {
-    display: flex;
-    margin: auto;
-    
-}
-
-.video-poster img {
-    align-items: center;
-    object-fit: cover;   
-    width: 100%;
-    position: relative;
+.video-poster {  
+    background-image: url("../img/types/bg_types.webp");
 }
 
 .poster-caption {
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
-.types-section {
+.types-section-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 320px;
     background: #f9f4f0;
 }
 
-.types-section-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: baseline;
-}
-
 .types-section-content-about {
-    margin: auto;  
-}
+    justify-content: center;
 
+}
 .types-section-carusel {
+    min-width: 320px;
+}
+.types-section-carusel-item {
     display: flex;
-    margin: auto;
-    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
 }
 
 .types-section-carusel-card {
-    background: white;
-    margin: auto;
-    margin-top: 40px;
-}
-
-@media (min-width:322px) { 
-    .types-section-carusel-card {
-        margin-top: 5px;
-    }
-    .video-poster {
-        max-height: 200px;
-    }
-}
-
-@media (min-width:768px) { 
-    .types-section-carusel-card {
-        margin-top: 20px;
-    }
-    .video-poster {
-        max-height: 300px;
-    }
-}
-
-@media (min-width:922px) { 
-    .types-section-carusel-card {
-        margin-top: 40px;
-    }
-    .video-poster {
-        max-height: 400px;
-    }
+    background: white; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 20px;
 }
 
 .honney-caption-collor {
     color: #eb6d2f;
-    font-size: 14px;
     text-transform: uppercase;
-    margin: 15px auto;
-    text-align: center;
-    padding: 0;
+    margin: 20px  20px 0 20px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: Open Sans,sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .1em;
+}
+
+.types-section-line {
+    height: 4px;
+    width: 20%;
+    box-sizing: border-box;
+    background-color: #eb6d2f;
+    margin: 0px 0px 0px 20px; 
 }
 
 .types-section-subheading {
     color: #5a3733;
+    line-height: 1.25;
+    font-family: Signika Negative,sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    padding: 20px;
     font-size: 38px;
     text-transform: uppercase;
     margin: auto;
 }
 
-.types-section-line {
-    height: 4px;
-    width: 6vw;
-    min-width: 40px;
-    color: #eb6d2f;
-    margin: 20px auto;
+.types-section-description {
+    margin: 20px 0px 0px 20px; 
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    list-style: none;
 }
 
-.types-section-description {
-    font-size: 18px;
-    line-height: 160%;
-    color: rgba(65, 57, 57, 1);
-    list-style: none;
+.types-section-description li {
+    margin: 15px 0 15px -45px;
 }
 
 .check-icon {
@@ -110,16 +96,206 @@
     height: 18px;
 }
 
-.types-section-carusel-card {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 20%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: var(--card-background-color);
-    border-radius: 10px;
-    padding: 2%;
+.item-caption {
+    min-width: 200px;
+    max-width: 400px;
 }
+
+.display-hide {
+    display: none;
+}
+
+.carusel-card-item {
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.shop-now {
+    color: white;
+    cursor: pointer;
+    background-color: #eb6d2f;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-radius: 8px;
+    border:0;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin:auto;
+    justify-content: flex-end;
+}
+
+.shop-now:hover{
+    background-color: orange;
+    color: white;
+}
+
+@media (min-width:322px) { 
+    .types-section-carusel-card {
+        margin-top: 5px;
+    }
+    .video-poster {
+        height: 350px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+}
+
+@media (min-width:768px) { 
+    .types-section-carusel-card {
+        margin-top: 20px;
+    }
+    .video-poster {
+        height: 500px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+
+    .types-section-content {
+        flex-direction: row; 
+    } 
+    .display-hide {
+        display: block;
+        background: white; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        padding: 2%;
+        margin: 20px;
+    } 
+    .types-section-carusel-card { 
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media (min-width:922px) { 
+    .types-section-carusel-card {
+        margin-top: 40px;
+    }
+    .video-poster {
+        height: 650px;   
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        margin: auto;
+        object-fit: cover;  
+        object-position: 80% 50%;
+    }
+
+    .types-section-content {
+        flex-direction: row; 
+    } 
+    .display-hide {
+        display: block;
+        background: white; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        padding: 2%;
+        margin: 20px;
+    } 
+    .types-section-carusel-card { 
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/*  slick slider   */
+
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+.slider_types {
+    position: relative;
+    padding: 0 75px;
+    border: 2px solid black;
+}
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -10px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+}
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    border: 0;
+    background: url(../img/arrow-left.png) 0 0 / 100% no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.slider .slick-arrow.slick-next{
+    right: 0;
+    border: 0;
+    background: url(../img/arrow-right.png) 0 0 / 100% no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.slider .slick-dots button{
+    font-size: 0;
+    border: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #d1c6c2;
+    border-radius: 50%;
+}
+.slider .slick-dots li.slick-active button {
+    background-color: #816662;
+
+}
+

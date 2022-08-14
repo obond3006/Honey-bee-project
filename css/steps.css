@@ -17,6 +17,7 @@
     background-image: url("../img/store/background-bees.jpg");
     object-fit: contain;
     }
+    
 .steps__heading {
     color: var(--h2-text-color);
     font-size: 14px;
@@ -49,9 +50,21 @@
 }
 
 .steps__decription {
-    color: rgb(65, 57, 57);
+    font-family: Open Sans, sans-serif;
     font-size: 18px;
-    line-height: 28.8px;
+    margin:auto;
+    padding: 15px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.steps__decription-card{
+    color: var(--h3-text-color);
+    font-size: 30px;
+    line-height: 47.5px;
+    font-weight: 700;
+    font-family: "Signika Negative", sans-serif;
+    margin-top: 10px;
 }
 
 .cards__section{
@@ -61,16 +74,20 @@
 }
 
 .cards__wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.cards__container{
-    border-radius: 15px;
+    width: 200px;
     padding: 5px;
+    border-radius: 8px;
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
-.button-request {
+.cards__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-steps {
     color: white;
     background-color: var(--h2-text-color);
     padding: 10px 25px;
@@ -84,21 +101,34 @@
     margin-bottom: 100px;
 }
 
-.button-request:hover{
-    background-color: orange;
+.button-steps:hover{
+    background-color:  #5a3733;
+    color: white;
 }
 
 @media (min-width:320px) {
+    .steps-subheading {
+        text-align: center;
+        margin-top: 30px;
+    }
 }
 
-@media (min-width:768px) {
-
-}
-
-@media (min-width:992px) {
-
-} 
-
+@media (min-width: 768px) {
+    .cards__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+  
+  }
+  
+  @media (min-width: 992px) {
+    .cards__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  
+    }
+  }
 
 
 
