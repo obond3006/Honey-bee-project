@@ -57,6 +57,15 @@
     text-align: center;
 }
 
+.steps__decription-card{
+    color: var(--h3-text-color);
+    font-size: 30px;
+    line-height: 47.5px;
+    font-weight: 700;
+    font-family: "Signika Negative", sans-serif;
+    margin-top: 10px;
+}
+
 .cards__section{
     margin: auto;
     padding: 60px 24px 60px 24px;
