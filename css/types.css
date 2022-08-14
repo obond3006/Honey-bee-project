@@ -26,6 +26,8 @@
 }
 .types-section-carusel-item {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .types-section-carusel-card {
@@ -33,8 +35,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 50%;
-    min-width: 160px;
+    width: 80%;
+    min-width: 300px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -97,6 +99,10 @@
 .item-caption {
     min-width: 200px;
     max-width: 400px;
+}
+
+.display-hide {
+    display: none;
 }
 
 .carusel-card-item {
@@ -162,6 +168,29 @@
     .types-section-content {
         flex-direction: row; 
     } 
+    .display-hide {
+        display: block;
+        background: white; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        padding: 2%;
+        margin: 20px;
+    } 
+    .types-section-carusel-card { 
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }
 
 @media (min-width:922px) { 
@@ -184,6 +213,28 @@
     .types-section-content {
         flex-direction: row; 
     } 
+    .display-hide {
+        display: block;
+        background: white; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        padding: 2%;
+        margin: 20px;
+    } 
+    .types-section-carusel-card { 
+        width: 40%;
+        min-width: 250px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 
