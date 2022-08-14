@@ -17,6 +17,9 @@
     --light-card-background-color: #fff;
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
+    --line-number-color:rgb(102, 59, 54);
+    --numbers-background-color:#f4ebe4;
+    --blog-font:"Signika Negative", sans-serif;
 }
 
 .page-heading{

@@ -82,3 +82,35 @@ $('.services-responsive').slick({
       // instead of a settings object
     ]
   });
+  // Blog slider:
+  $('.blog-responsive').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    mobileFirst: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    cssEase: 'linear',
+    respondTo: 'slider',
+    responsive: [
+      {
+        breakpoint: 790,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 970,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      }
+      
+    ]
+  });
+
+ 
