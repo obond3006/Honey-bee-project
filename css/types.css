@@ -99,6 +99,10 @@
     max-width: 400px;
 }
 
+.display-hide {
+    display: none;
+}
+
 .carusel-card-item {
     display: block;
     width: 100px;
@@ -162,6 +166,9 @@
     .types-section-content {
         flex-direction: row; 
     } 
+    .display-hide {
+        display: block;
+    }
 }
 
 @media (min-width:922px) { 
@@ -184,6 +191,9 @@
     .types-section-content {
         flex-direction: row; 
     } 
+    .display-hide {
+        display: block;
+    }
 }
 
 
