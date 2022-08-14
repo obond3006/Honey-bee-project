@@ -1,20 +1,7 @@
 .main__about{
     margin: auto;
     padding: 0 24px;
-    background-image: url(../img/about/about-background.jpeg);
-    background-size: cover;
-}
-
-@media (min-width: 768px){
-    .main__about{
-        padding: 0 32px;
-    }
-}
-
-@media (min-width: 922px){
-    .main__about{
-        padding: 0 40px;
-    }
+    background-color: var(--background-color);
 }
 
 .main-about__container{
@@ -46,7 +33,7 @@
 }
 
 .about-header__description{
-    color: rgb(65, 57, 57);
+    color: var(--text-color);
     font-size: 18px;
     line-height: 28.8px;
 }
@@ -89,7 +76,7 @@
 }
 
 .about__description p{
-    color: rgb(65, 57, 57);
+    color: var(--text-color);
     font-size: 16px;
     line-height: 27.2px;
 }
@@ -97,5 +84,19 @@
 @media (min-width: 720px){
     .main-about__container{
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px){
+    .main__about{
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 922px){
+    .main__about{
+        padding: 0 40px;
+        background-image: url(../img/about/about-background.jpeg);
+        background-size: cover;
     }
 }
