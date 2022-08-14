@@ -13,6 +13,9 @@
     --h3-text-color: #5a3733;
     --h1-text-color: #5a3733;
     --background-color: #f9f4f0;
+    --contacts-button-hover-background: #f7bc02;
+    --contacts-form-background: #fff;
+    --box-shadow-color: #000;
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
 }
