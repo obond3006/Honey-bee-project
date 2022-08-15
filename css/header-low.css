@@ -1,70 +1,74 @@
 .header-containernav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--background-color);
     padding: 30px 15px;
+}
+
+.logo__container {
+    position: relative;
+    z-index: 10;
 }
 
 .text__links {
     display: none;
 }
 
+.burger-container {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.burger-container span,
+.burger-container::before,
+.burger-container::after {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--text-color);
+}
+
+.burger-container::before {
+    content: " ";
+    top: 0;
+}
+
+.burger-container::after {
+    content: " ";
+    bottom: 0;
+}
+
+.burger-container .burger-active span {
+    transform: scale(0);
+}
+
+.burger-container .burger-active::before {
+    top: 12px;
+    transform: rotate(45deg);
+}
+
+.burger-container.burger-active::after {
+    bottom: 10px;
+    transform: rotate(-45deg);
+}
+
 @media (min-width: 922px) {
-    .logo__container {
-        position: relative;
-        z-index: 10;
+    .burger-container{
+        display: none;
     }
 
     .text__links {
         display: block;
     }
 
-    .burger-container {
-        display: block;
-        position: relative;
-        width: 30px;
-        height: 20px;
-        padding: 12px;
-        cursor: pointer;
-        z-index: 5;
-    }
-
-    .burger-container span,
-    .burger-container::before,
-    .burger-container::after {
-        position: absolute;
-        left: 0;
-        height: 2px;
-        width: 100%;
-        background-color: var(--text-color);
-    }
-
-    .burger-container::before {
-        content: " ";
-        top: 0;
-    }
-
-    .burger-container::after {
-        content: " ";
-        top: 0;
-    }
-
-    .burger-container .burger-active span {
-        transform: scale(0);
-    }
-
-    .burger-container .burger-active::before {
-        top: 12px;
-        transform: rotate(45deg);
-    }
-
-    .burger-container .burger-active::after {
-        bottom: 12px;
-        transform: rotate(-45deg);
-    }
-
-    .text-link {
+       .text-link {
         text-decoration: none;
         color: var(--text-color);
         padding: 15px;
