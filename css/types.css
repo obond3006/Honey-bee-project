@@ -100,7 +100,7 @@
 .card-img {
     display: block;
     width: 70px;
-    margin-top: 20px;
+    margin: 20px 0px 0 50px;
     justify-content: center;
     align-items: center;
 }
