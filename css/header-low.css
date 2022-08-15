@@ -58,16 +58,4 @@
     color: white;
     background-color:#eb6d2f;
 }
-.upper__theme {  
-    background-image: url(../img/header/beefon.jpg);
-    background-size: cover;
-}
-
-.upper__theme {
-   padding: 130px 0;
-}
-
-.upper__container {
-    padding: 0 24px;
-}
 
