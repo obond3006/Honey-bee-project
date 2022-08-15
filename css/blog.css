@@ -43,7 +43,7 @@
     background-color: rgb(255, 255, 255);
     margin: 20px;
     flex: 1 1 0%;
-    /* padding: 50px 15px; */
+    padding: 50px 15px;
     gap: 10px;
     border-radius: 5%;
 }
@@ -58,7 +58,7 @@
 .blog__date {
     font-size: 15px;
     font-weight: bold;
-    color: var(--h2-text-color) !important;
+    color: var(--h2-text-color);
     padding: 10px 10px 20px;
 }
  .blog__conteiner_h {
@@ -73,8 +73,9 @@
 }
 
 .blog__carousel-card-container {
-    padding: 15px;
+    padding: 20px;
     background-color: var(--light-card-background-color);
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 10px;
+    margin: 20px;
 }

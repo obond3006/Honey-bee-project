@@ -99,7 +99,7 @@ $('.services-responsive').slick({
         }
       },
       {
-        breakpoint: 970,
+        breakpoint: 790,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1
