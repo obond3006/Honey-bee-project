@@ -80,7 +80,6 @@ $('.services-responsive').slick({
   });
   // Blog slider:
   $('.blog-responsive').slick({
-    dots: true,
     infinite: true,
     speed: 300,
     mobileFirst: true,
@@ -94,7 +93,6 @@ $('.services-responsive').slick({
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
         }
       },
       {

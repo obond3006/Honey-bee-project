@@ -82,6 +82,9 @@
 .slick-next::before {
     color: var(--h2-text-color);
 }
+.slick-prev:before, .slick-next:before {
+    color: var(--h2-text-color);
+}  
 .card-img-top{
     border-radius: 5%;
 }
