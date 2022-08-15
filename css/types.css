@@ -16,13 +16,13 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    min-width: 200px;
+    min-width: 0;
     background: #f9f4f0;
 }
 
 .content-about {
     max-width: 750px;
-    min-width: 200px;
+    min-width: 250;
 }
 
 .honney-caption-collor {
@@ -78,7 +78,7 @@
 
 .types-carusel {
     min-width: 0;
-   
+    width: 80%;
     max-width: 400px;
     display: flex;
     justify-content: center;
