@@ -11,8 +11,23 @@
 }
 
 @media (min-width: 922px) {
+    .logo__container {
+        position: relative;
+        z-index: 10;
+    }
+
     .text__links {
         display: block;
+    }
+
+    .burger-container {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        padding: 12px;
+        cursor: pointer;
+        z-index: 5;
     }
 
     .burger-container span,
@@ -20,7 +35,7 @@
     .burger-container::after {
         position: absolute;
         left: 0;
-        height: 0;
+        height: 2px;
         width: 100%;
         background-color: var(--text-color);
     }
@@ -49,15 +64,6 @@
         transform: rotate(-45deg);
     }
 
-    .burger-container {
-        display: block;
-        position: relative;
-        width: 30px;
-        height: 20px;
-        padding: 12px;
-        cursor: pointer z-index: 5;
-    }
-
     .text-link {
         text-decoration: none;
         color: var(--text-color);
@@ -67,7 +73,7 @@
 
     .text-link:hover {
         border-bottom: 2px solid var(--h2-text-color);
-        color: var;
+        color: var(--h2-text-color);
     }
 
     .bunner__button {
