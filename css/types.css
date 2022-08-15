@@ -78,6 +78,7 @@
 
 .types-carusel {
     min-width: 0;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
