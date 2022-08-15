@@ -48,7 +48,7 @@
 }
 
 .mybutton:hover{
-    color: white;
+    color: var(--contacts-form-background);
     background-color: var(--contacts-button-hover-background);
     transition: 0.5s;
 }
