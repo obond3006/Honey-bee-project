@@ -97,6 +97,20 @@
     margin: 15px;
     height: 220px;
 }
+.carusel-card2 {
+    background: white; 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 15px;
+    height: 220px;
+}
 
 .card-img {
     display: block;
@@ -270,8 +284,10 @@
 
     .types-carusel .slick-arrow.slick-prev{
         margin: 0 0 0 45px;
+        background: none;
     }
     .types-carusel .slick-arrow.slick-next{
         margin: 0 45px 0 0;
+        background: none;
     }
 }
