@@ -1,6 +1,6 @@
 .gallery__section {
     margin: auto;
-    background-color: #f9f4f0;
+    background-color: var(--background-color);
     padding: 60px 24px 60px 24px;
 }
 

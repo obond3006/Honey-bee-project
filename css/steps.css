@@ -32,7 +32,7 @@
     background-size: cover;
     min-height: 300px
 }
-.steps__subheading {
+.steps-subheading {
     color: var(--h3-text-color);
     font-family: "Signika Negative", sans-serif;
     font-size: 38px;
