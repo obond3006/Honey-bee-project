@@ -1,7 +1,11 @@
-.review {
-    background-color: #5a3733;
+.block__review {
+    background-color: var(--h1-text-color);
     background-size: cover;
-    padding: 90 24px;
+    color: var(--light-card-background-color);
+}
+
+.review {
+    padding: 90px 24px;
     text-align: center;
 }
 
@@ -22,14 +26,13 @@
 .header__first-header {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    color: rgb(247, 189, 0);
+    color: var(--contacts-button-hover-background);
     letter-spacing: 1.4px;
 }
 
 .header__second-header {
     font-family: "Signika Negative", sans-serif;
     font-size: 38px;
-    color: white;
     margin-top: 30px;
 }
 
@@ -38,7 +41,7 @@
 }
 
 .lines {
-    background-color: rgb(247, 189, 0);
+    background-color: var(--contacts-button-hover-background);
     height: 4px;
     width: 33px;
 }
@@ -46,7 +49,6 @@
 .header__text {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
-    color: white;
     padding: 0 25px;
     line-height: 1.5;
 }
@@ -79,13 +81,12 @@
     margin-top: 20px;
     font-size: 25px;
     font-family: "Signika Negative", sans-serif;
-    color: #f7bd00;
+    color: var(--contacts-button-hover-background);
     font-weight: 600;
 }
 
 .review__text {
     margin-top: 15px;
-    color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -97,22 +98,7 @@
     margin-top: 40px;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    color: white;
     letter-spacing: 1.4px;
-}
-
-
-@media (min-width: 320px){
-    .review {
-        padding: 90px 24px;
-    }
-    .lines {
-        width: 33px;
-    }
-    .review__photo {
-        width: 70px;
-        height: 70px;
-    }
 }
 
 @media (min-width: 768px) {
