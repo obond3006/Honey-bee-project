@@ -79,3 +79,6 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 10px;
     margin: 20px;
 }
+.slick-next::before {
+    color: var(--h2-text-color);
+}
