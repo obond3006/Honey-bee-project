@@ -59,7 +59,7 @@
     font-size: 15px;
     font-weight: bold;
     color: var(--h2-text-color);
-    padding: 10px 10px 20px;
+    padding-top: 5px;
 }
  .blog__conteiner_h {
     font-weight: bold;
@@ -81,4 +81,7 @@
 }
 .slick-next::before {
     color: var(--h2-text-color);
+}
+.card-img-top{
+    border-radius: 5%;
 }
