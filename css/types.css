@@ -88,8 +88,8 @@
     background: white; 
     display: flex;
     flex-direction: column;
-    width: 370px;
-    min-width: 0;
+    
+    min-width: 370px;
     justify-content: center;
     align-items: center;
     text-align: center;
