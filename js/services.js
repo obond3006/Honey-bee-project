@@ -78,7 +78,9 @@ $('.services-responsive').slick({
       // instead of a settings object
     ]
   });
+
   // Blog slider:
+  
   $('.blog-responsive').slick({
     infinite: true,
     speed: 300,
