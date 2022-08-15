@@ -78,7 +78,8 @@
 
 .types-carusel {
     min-width: 0;
-    width: 400px;
+   
+    max-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +89,7 @@
     background: white; 
     display: flex;
     flex-direction: column;
-    
+
     min-width: 0px;
     justify-content: center;
     align-items: center;
