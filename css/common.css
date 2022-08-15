@@ -23,6 +23,9 @@
     --line-number-color:rgb(102, 59, 54);
     --numbers-background-color:#f4ebe4;
     --blog-font:"Signika Negative", sans-serif;
+    --store-grey-text:#939393; 
+    --store-yellow-text:#f7bd00;
+    --store-white-text:#fff;
 }
 
 .page-heading{

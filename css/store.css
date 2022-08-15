@@ -1,10 +1,15 @@
 .main__store {
-    /*Double-check this!*/
         background-image: url("../img/store/background-bees.jpg");
         background-size: cover;
         background-repeat: no-repeat;    
         padding: 55px 10% 80px;    
 }
+
+.store__container{
+    max-width: 1200px;
+}
+
+
 .store__heading {
     color: var(--h2-text-color);
     font-size: 14px;
@@ -60,19 +65,19 @@
 }
 
 .carousel-product-name {
-    color: #939393;
+    color: var(--store-grey-text);
     font-size: 18px;
     text-align: center;
 }
 
 .carousel-product-price {
-    color: #f7bd00;
+    color: var(--store-yellow-text);
     font-size: 20px;
     text-align: center;
 }
 
 .buy-product {
-    color: white;
+    color: var(--store-white-text);
     background-color: var(--h2-text-color);
     text-decoration: none;
     padding: 10px 25px;
@@ -90,21 +95,12 @@
 }
 
 .buy-product:hover{
-    background-color: orange;
-    color: white;
+    background-color: var(--contacts-button-hover-background);
+    color: var(--store-white-text);
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    /* .store__products-carousel-element{
-        max-width: 320px;
-        padding: 10px;
-    } */
-    /* .store__products-carousel{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-    } */
     .main__store{
         padding: 105px 4% 55px;
     }
