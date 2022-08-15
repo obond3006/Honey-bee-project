@@ -48,6 +48,7 @@
 }
 
 .mybutton:hover{
+    color: white;
     background-color: var(--contacts-button-hover-background);
     transition: 0.5s;
 }
@@ -59,6 +60,9 @@
      .heading__container {
     padding: 0 36px;
     }
+    .header__big {
+        font-size: 70px;
+ }
 }
 
 @media (min-width:922px) {
@@ -74,5 +78,8 @@
     .heading {
        padding: 0 40px;
     }
+    
+    .header__big {
+       font-size: 100px;
 }
 
