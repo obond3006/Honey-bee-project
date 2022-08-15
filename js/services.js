@@ -87,10 +87,9 @@ $('.services-responsive').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: 'linear',
-    respondTo: 'slider',
     responsive: [
       {
-        breakpoint: 422,
+        breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -99,7 +98,7 @@ $('.services-responsive').slick({
         }
       },
       {
-        breakpoint: 790,
+        breakpoint: 970,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1
