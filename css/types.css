@@ -163,6 +163,9 @@
     overflow: hidden;
 }
 
+.types-carusel .slick-initialized .slick-slide {
+    display: flex;
+}
 
 .types-carusel .slick-arrow {
     position: absolute;
