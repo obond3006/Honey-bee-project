@@ -24,7 +24,7 @@
     padding: 15px;
     max-width: 800px;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: initial;
 }
 .blog__line{
     height: 4px;
