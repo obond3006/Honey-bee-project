@@ -99,6 +99,7 @@
 
 .card-img {
     width: 70px;
+    margin: auto;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
