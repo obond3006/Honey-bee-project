@@ -98,9 +98,8 @@
 }
 
 .card-img {
-   
     width: 70px;
-   
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -164,6 +163,14 @@
 }
 
 .types-carusel .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.types-carusel .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.types-carusel .slick-slide img {
     display: flex;
 }
 
