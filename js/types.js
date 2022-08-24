@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.types-carusel').slick({
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 300,
   mobileFirst: true,
