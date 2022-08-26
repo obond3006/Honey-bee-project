@@ -19,12 +19,22 @@
     border-radius: 50%;
 }
 
+
+.play-button {
+    margin-top: 38px;
+    margin-left: 42px;
+    border-style: solid;
+    border-width: 0.75em 0 0.75em 1.25em;
+    border-color: transparent transparent transparent #eb6d2f;
+  }
+
+/*
 .img-play {
     align-items: center;
     justify-content: center;
     margin-top: 25px;
     margin-left: 25px;
-}
+}*/
 
 .video-caption {
     color: white;
