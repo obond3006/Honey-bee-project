@@ -35,12 +35,6 @@
     padding: 15px;
 }
 
-@media (min-width: 768px) {
-    .services-subheading {
-        margin-top: 30px;
-    }
-}
-
 .services__carousel-card {
     display: flex;
     flex-direction: column;
@@ -58,13 +52,6 @@
 .services__carousel-img {
     height: 70px;
     width: 70px;
-}
-
-@media (min-width: 780px) {
-    .services__carousel-img {
-        height: 100px;
-        width: 100px;
-    }
 }
 
 .services__carousel-card h4 {
@@ -92,4 +79,38 @@
 .services__carousel-cards-link:hover {
     text-decoration: underline;
     color: var(--link-color);
+}
+
+/* Slick-slider dots personalised */
+
+.services-responsive .slick-dots {
+    bottom: -35px;     
+}
+
+.services-responsive .slick-dots li button:before { 
+    display: none;
+}
+
+.services-responsive .slick-dots button {
+    width: 10px;
+    height: 10px;
+    background-color: var(--slider-dot-color);
+    border-radius: 50%;
+}
+ 
+.services-responsive .slick-dots li.slick-active button {
+    background-color: var(--slider-active-dot-color);
+}
+
+@media (min-width: 768px) {
+    .services-subheading {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 780px) {
+    .services__carousel-img {
+        height: 100px;
+        width: 100px;
+    }
 }

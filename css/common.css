@@ -27,6 +27,8 @@
     --store-yellow-text:#f7bd00;
     --store-white-text:#fff;
     --cards-shadow: rgba(149, 157, 165, 0.2) 0px 3px 10px;
+    --slider-dot-color: #d1c6c2;
+    --slider-active-dot-color: #816662;
 }
 
 .page-heading{

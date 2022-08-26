@@ -21,7 +21,6 @@
 
 .faq__text {
     width: 100%;
-    max-width: 600px;
     padding: 0;
 }
 
@@ -119,6 +118,7 @@
 
     .faq__text {
         padding: 0 15px;
+        max-width: 600px;
     }
     
     .accordion-label-heading {
