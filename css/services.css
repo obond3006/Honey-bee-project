@@ -9,8 +9,7 @@
 .services__header {
     text-align: center;
     margin: auto;
-    max-width: 770px;
-    min-width: 270px;
+    max-width: 770px;    
 }
 
 .services-line {
