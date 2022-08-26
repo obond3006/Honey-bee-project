@@ -3,7 +3,8 @@
     const accordions = document.querySelectorAll(".accordion-label");
   
     for (let i = 0; i < accordions.length; i++) {
-        accordions[i].onclick = function () {
+        accordions[i].addEventListener('click', function () {
+            
             this.classList.toggle("is-open");
   
             const content = this.nextElementSibling;
@@ -13,6 +14,6 @@
                 } else {
                 content.style.maxHeight = content.scrollHeight + "px";
             }
-        }
+        })
     }
 })();
