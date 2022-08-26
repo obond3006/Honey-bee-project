@@ -6,9 +6,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
     object-fit: cover;  
-    object-position: 80% 50%;
+    object-position: 80% 50%; 
+}
+
+.round-types {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.img-play {
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.video-caption {
+    color: white;
+    margin: auto;
+    position: absolute;
+    margin-top: 150px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .types-section-content {
