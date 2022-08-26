@@ -213,23 +213,29 @@
     display: flex; 
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
-.types-carusel .slick-dots li{
-    list-style: none;
-    margin: 0px 10px;
+.types-carusel .slick-dots li{ 
+    width: 10px;
+    margin: 0 10px;
 }
-.types-carusel .slick-dots button{
+
+.types-carusel .slick-dots li button::before { 
     font-size: 0;
+}
+
+.types-carusel .slick-dots button{
+    
     border: 0;
     width: 10px;
     height: 10px;
     background-color: #d1c6c2;
     border-radius: 50%;
-}
+} 
 .types-carusel .slick-dots li.slick-active button {
+    list-style: none;
     background-color: #816662;
 }
-
 
 
 @media (min-width:768px) { 
