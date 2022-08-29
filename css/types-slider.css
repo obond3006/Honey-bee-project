@@ -21,6 +21,10 @@
   margin: auto;
 }
 
+.fade:not(.show) {
+  opacity: 1;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
