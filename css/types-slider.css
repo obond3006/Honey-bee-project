@@ -21,6 +21,33 @@
   margin-top: 30px;
 }
 
+.mySlides iframe {
+  left: 10%;
+  margin: auto;
+  align-items: center;
+  max-width: 80%;
+  position: relative;
+}
+
+@media (min-width:768px){
+  .mySlides iframe {
+    left: 0;
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:922px) { 
+  .mySlides iframe {
+    left: 0;
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+  }
+}
+
+
 .fade:not(.show) {
   opacity: 1;
 }
