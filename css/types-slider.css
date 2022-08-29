@@ -18,7 +18,7 @@
 }
 
 .mySlides {
-  margin: auto;
+  margin-top: 30px;
 }
 
 .fade:not(.show) {
