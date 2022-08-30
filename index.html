@@ -715,14 +715,15 @@
                     </div>
                 </div>
                 <div class="contacts__form">
-                    <form id="contact-form" action="https://formspree.io/f/xqkjzwqo" method="POST">
-                        <input class="contact-input" type="text" name="user's name" placeholder="Enter your full name*"
+                    <!--https://formspree.io/f/xqkjzwqo-->
+                    <form id="contact-form" action="contact" method="POST">
+                        <input id="contact-input-name" class="contact-input" type="text" name="user's name" placeholder="Enter your full name*"
                             required>
-                        <input class="contact-input" type="tel" name="user's phone number"
+                        <input id="contact-input-tel" class="contact-input" type="tel" name="user's phone number"
                             placeholder="Enter your phone number*" required>
-                        <input class="contact-input" type="email" name="user's email" placeholder="Enter your e-mail*"
+                        <input id="contact-input-mail" class="contact-input" type="email" name="user's email" placeholder="Enter your e-mail*"
                             required>
-                        <input class="contact-input contact-message" name="message" type="text" placeholder="Type your message"
+                        <input id="contact-input-message" class="contact-input contact-message" name="message" type="text" placeholder="Type your message"
                             required>
                         <p class="contact-status" id="form-status"></p>
                         <button class="contact-button" type="submit">Request a Quote</button>
@@ -801,7 +802,7 @@
     <script type="text/javascript" src="js/sliders.js"></script>
     <script type="text/javascript" src="js/faq.js"></script>
     <script type="text/javascript" src="js/types-slider.js"></script>
-    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/contact-node.js"></script>
     
 
 </body>
