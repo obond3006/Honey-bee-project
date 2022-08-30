@@ -327,12 +327,22 @@
 
         <!-- Cart popup start -->
         <section id="cart-button">
-            <div class="cart__button">
+            <div class="cart__button" id="launch-btn">
                 <div class="cart-button__counter">
                     <p class="cart-button-counter__placeholder">2</p>
                 </div>
                 <div class="cart-button__icon">
-                    <img src="img/cart-button/shopping-bag-icon.png" alt="cart-button-icon" class="cart-button-icon__img">
+                    <img src="img/cart-button/shopping-bag-icon.png" alt="cart-button-icon"
+                        class="cart-button-icon__img">
+                </div>
+            </div>
+            <div class="popup__wrapper" id="form-modal" >
+                <div class="modal-form__container" method="post">
+                    <div class="popup__header">
+                        <h3 class="item-heading">Shopping cart</h3>
+                        <p class="close-btn">X</p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -826,8 +836,7 @@
     <script type="text/javascript" src="js/faq.js"></script>
     <script type="text/javascript" src="js/types-slider.js"></script>
     <script type="text/javascript" src="js/contact-node.js"></script>
-
-
+    <script type="text/javascript" src="js/cart-popup.js"></script>
 </body>
 
 </html>
