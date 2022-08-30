@@ -68,7 +68,7 @@
         display: block;
     }
 
-       .text-link {
+    .text-link {
         text-decoration: none;
         color: var(--text-color);
         padding: 15px;
