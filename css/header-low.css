@@ -4,6 +4,8 @@
     align-items: center;
     background-color: var(--background-color);
     padding: 30px 15px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .logo__container {
@@ -25,6 +27,40 @@
     z-index: 5;
 }
 
+.burger__links {
+    display: none;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--background-color);
+}
+
+.burger-text-link {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 15px;
+    font-weight: 600;
+}
+
+.burger-text-link:hover {
+    border-bottom: 3px solid var(--contacts-button-hover-background);
+    color: var(--h2-text-color);   
+}
+
+.burger-bunner__button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--h2-text-color);
+    text-decoration: none;
+    color: #5a3733;
+    font-weight: 700;
+}
+
+.burger-bunner__button:hover {
+    background-color: var(--h2-text-color);
+    color: var(--light-card-background-color)
+}
+
 .burger-container span,
 .burger-container::before,
 .burger-container::after {
@@ -33,6 +69,7 @@
     height: 2px;
     width: 100%;
     background-color: var(--text-color);
+    transition: all 0.3s;
 }
 
 .burger-container::before {
@@ -45,21 +82,21 @@
     bottom: 0;
 }
 
-.burger-container .burger-active span {
+.burger-container.burger-active:hover span {
     transform: scale(0);
 }
 
-.burger-container .burger-active::before {
+.burger-container.burger-active:hover:before {
     top: 12px;
     transform: rotate(45deg);
 }
 
-.burger-container.burger-active::after {
-    bottom: 10px;
+.burger-container.burger-active:hover:after {
+    top: 12px;
     transform: rotate(-45deg);
 }
-
 @media (min-width: 922px) {
+    
     .burger-container{
         display: none;
     }
@@ -68,16 +105,16 @@
         display: block;
     }
 
-       .text-link {
+    .text-link {
         text-decoration: none;
         color: var(--text-color);
         padding: 15px;
         font-weight: 600;
     }
 
-    .text-link:hover {
-        border-bottom: 2px solid var(--h2-text-color);
-        color: var(--h2-text-color);
+   .text-link:hover {
+        border-bottom: 3px solid var(--contacts-button-hover-background);
+        color: var(--h2-text-color);   
     }
 
     .bunner__button {
