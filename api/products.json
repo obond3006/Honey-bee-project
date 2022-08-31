@@ -1,0 +1,32 @@
+[
+  {
+    "id": "product-1",
+    "img": "img/store/wildflower-honey.jpeg",
+    "name": "Wildflower Honey",
+    "price": 7
+  },
+  {
+    "id": "product-2",
+    "img": "img/store/blossom-honey.jpeg",
+    "name": "Blossom Honey",
+    "price": 20
+  },
+  {
+    "id": "product-3",
+    "img": "img/store/clover-honey.jpeg",
+    "name": "Clover Honey",
+    "price": 8
+  },
+  {
+    "id": "product-4",
+    "img": "img/store/buckwheat-honey.jpeg",
+    "name": "Buckwheat Honey",
+    "price": 10
+  },
+  {
+    "id": "product-5",
+    "img": "img/store/citrus-blossom-honey.jpeg",
+    "name": "Citrus Blossom Honey",
+    "price": 15
+  }
+]
