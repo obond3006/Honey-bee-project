@@ -139,4 +139,8 @@ background-color: var(--background-color);
         background-color: var(--h2-text-color);
         color: var(--light-card-background-color)
     }
+    
+    .burger__links.burger-active {
+        display: none;
+    }
 }
