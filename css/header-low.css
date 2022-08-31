@@ -34,6 +34,10 @@ background-color: var(--background-color);
 
 .burger__links {
     display: none;
+}
+
+.burger__links.burger-active {
+    display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -133,5 +137,9 @@ color: var(--h2-text-color);
     .bunner__button:hover {
         background-color: var(--h2-text-color);
         color: var(--light-card-background-color)
+    }
+    
+    .burger__links.burger-active {
+        display: none;
     }
 }
