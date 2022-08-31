@@ -39,7 +39,7 @@
         for(const item of storeItems) {
             storeContainer.innerHTML += `
         <div class="store__products-carousel-element">
-            <a href="#"><img class="carousel-product-thumb" src="${item.img}"
+            <a href="product.html"><img class="carousel-product-thumb" src="${item.img}"
                     alt="${item.name}"></a>
             <h4 class="carousel-product-name">${item.name}</h4>
             <h5 class="carousel-product-price">$${item.price}USD</h5>
