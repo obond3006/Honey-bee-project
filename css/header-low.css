@@ -87,16 +87,16 @@ background-color: var(--background-color);
     bottom: 0;
 }
 
-.burger-container.burger-active:hover span {
+.burger-container.burger-active span {
     transform: scale(0);
 }
 
-.burger-container.burger-active:hover:before {
+.burger-container.burger-active::before {
     top: 12px;
     transform: rotate(45deg);
 }
 
-.burger-container.burger-active:hover:after {
+.burger-container.burger-active::after {
     top: 12px;
     transform: rotate(-45deg);
 }
