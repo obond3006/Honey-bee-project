@@ -32,12 +32,12 @@ background-color: var(--background-color);
     z-index: 5;
 }
 
-.burger__links.burger-active {
-    display: flex;
-}
-
 .burger__links {
     display: none;
+}
+
+.burger__links.burger-active {
+    display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
