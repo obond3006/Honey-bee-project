@@ -48,8 +48,7 @@ background-color: var(--background-color);
 }
 
 .burger-text-link:hover {
-    border-bottom: 3px solid var(--contacts-button-hover-background);
-    color: var(--h2-text-color);   
+color: var(--h2-text-color);   
 }
 
 .burger-bunner__button {
