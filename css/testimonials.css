@@ -58,7 +58,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 60px;
-    max-width: 1580px;
+    max-width: 800px;
+  /*  max-width: 1580px; */
     margin: auto;
 }
 
@@ -75,6 +76,11 @@
 .review__photo {
     width: 70px;
     height: 70px;
+}
+
+/* Тут марджин вставив*/
+.review__content .slick-slide img {
+    margin: auto;
 }
 
 .review__name {
@@ -112,6 +118,10 @@
         width: 120px;
         height: 120px;
     }
+    /* тут ширину вставив */
+    .container__review {
+        max-width: 400px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -120,5 +130,9 @@
     }
     .lines {
         width: 77px;
+    }
+     /* тут ширину вставив */
+     .container__review {
+        max-width: 400px;
     }
 }
