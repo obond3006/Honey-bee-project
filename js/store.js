@@ -28,8 +28,8 @@
         {
             id: "product-5",
             img: "img/store/citrus-blossom-honey.jpeg",
-            name: "Citrus Blossom Honey",
             price: 15,
+            name: "Citrus Blossom Honey",
         }
     ];
 
