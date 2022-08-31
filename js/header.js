@@ -12,12 +12,12 @@ $('.burger-container span:after').toggleClass('last');
     const burgerList = document.querySelector('.burger__links');
 
     function openBurger(){
-        if (burgerBtn.classList.contains('active')){
-            burgerBtn.classList.remove('active');
-            burgerList.classList.remove('active');
+        if (burgerBtn.classList.contains('burger-active')){
+            burgerBtn.classList.remove('burger-active');
+            burgerList.classList.remove('burger-active');
         } else {
-            burgerBtn.classList.add('active');
-            burgerList.classList.add('active');
+            burgerBtn.classList.add('burger-active');
+            burgerList.classList.add('burger-active');
         }
     };
 
