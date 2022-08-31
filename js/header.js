@@ -1,12 +1,3 @@
-$('.burger-container').click(function(){
-$('.burger-container span').toggleClass('middle');
-$('.burger-container span:before').toggleClass('first');
-$('.burger-container span:after').toggleClass('last');
-});
-
-
-
-
 (function(){
     const burgerBtn = document.querySelector('.burger-container');
     const burgerList = document.querySelector('.burger__links');
