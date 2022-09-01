@@ -2,34 +2,44 @@
 
     const storeItems = [
         {
-            id: "product-1",
+            id: "18",
             img: "img/store/wildflower-honey.jpeg",
             name: "Wildflower Honey",
             price: 7,
+            description: "This honey is harvested from sunny Californian meadows. It features mild taste and intense aroma. Great for your breakfasts!",
+            weight: 300,
         },
         {
-            id: "product-2",
+            id: "19",
             img: "img/store/blossom-honey.jpeg",
             name: "Blossom Honey",
             price: 20,
+            description: "With a tender aroma and mild taste, this honey is harvested from selected bee areas and flower varieties in California. It is universal honey to everyone's liking.",
+            weight: 450,
         },
         {
-            id: "product-3",
+            id: "20",
             img: "img/store/clover-honey.jpeg",
             name: "Clover Honey",
             price: 8,
+            description: "This pure raw honey is harvested in California by our beekeepers. It has a light color and a very tender taste, perfect for pairing it with different dishes.",
+            weight: 300,
         },
         {
-            id: "product-4",
+            id: "21",
             img: "img/store/buckwheat-honey.jpeg",
             name: "Buckwheat Honey",
             price: 10,
+            description: "It is highly nutritious honey with a robust taste and molasses-like color. The honey is very rich in vitamins and minerals, as well as antioxidants.",
+            weight: 300,
         },
         {
-            id: "product-5",
+            id: "22",
             img: "img/store/citrus-blossom-honey.jpeg",
             price: 15,
             name: "Citrus Blossom Honey",
+            description: "Amber-colored honey with sweet taste and citrus aroma. The best match for your morning toasts and pancakes!",
+            weight: 450,
         }
     ];
 

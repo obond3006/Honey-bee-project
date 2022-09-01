@@ -1,12 +1,16 @@
+body {
+    background-color: var(--background-color);
+}
+
 .product__page {
     display: flex;
     flex-direction: column;
-    background-color: var(--background-color);
-    padding: 40px 24px 55px;
+    padding: 40px 24px 55px;    
+    max-width: 1200px;
     margin: auto;
 }
 
-.product__page-container {
+.product__card {
     display: flex;
     flex-direction: column;
 }
@@ -80,7 +84,7 @@ input.product__page-input[type=number]::-webkit-inner-spin-button {
     border-radius: 3px;
     padding: 8px 12px;
     margin: 0 16px 16px 0;
-    max-width: 60px;
+    max-width: 70px;
     height: 40px;
 }
 
@@ -117,7 +121,7 @@ input.product__page-input[type=number]::-webkit-inner-spin-button {
 }
 
 @media (min-width: 768px) {
-    .product__page-container {
+    .product__card {
         flex-direction: row;
         align-items: center;
     }
