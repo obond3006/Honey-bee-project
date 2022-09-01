@@ -39,35 +39,38 @@
     </header>
 
     <main class="product__page">
-        <a class="to_home_page" href="index.html">Store homepage</a>
-        <div>
-            <div>
-                <img width="400" src="img/store/blossom-honey.jpeg" alt="">
+        <a class="home-link" href="index.html">Store homepage</a>
+        <div class="product__page-container">
+            <div class="product-image__container">
+                <img class="product-image" src="img/store/blossom-honey.jpeg" alt="">
             </div>
-            <div>
-                <p>
+            <div class="product-description__container">
+                <p class="in-stock-label">
                     In stock
                 </p>
-                <h3>
+                <h3 class="product__page-subheader">
                     Blossom Honey (002)
                 </h3>
-                <p>
+                <p class="product-code">
                     Product code 19
                 </p>
-                <p>
+                <p class="product-price">
                     $20,00USD
                 </p>
-                <hr>
-                <input type="number" value="1" min="1">
-                <input type="button" value="Add to cart">
-                <p>
+                <hr class="product__page-divider">
+                <div class="product__page-inputs">
+                    <input class="product__page-input" type="number" value="1" min="1">
+                    <input class="product__page-button" type="button" value="Add to cart">
+                </div>
+                <p class="product-description-heading">
                     Description
                 </p>
-                <hr>
-                <p>
+                <hr class="product__page-divider">
+                <p class="product-description">
                     With a tender aroma and mild taste, this honey is harvested from selected bee areas and flower varieties in California. It is universal honey to everyone's liking.
                 </p>
-                <p>
+                <br>
+                <p class="product-description">
                     Weight: 450g
                 </p>
             </div>
@@ -115,5 +118,7 @@
 
         </div>
     </footer>
+
+    <script type="text/javascript" src="js/header.js"></script>
 </body>
 </html>

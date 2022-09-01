@@ -1,12 +1,25 @@
 .product__page {
-    background-image: url(../img/services/background-for-main-services.jpg);
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
     background-color: var(--background-color);
     padding: 40px 24px 55px;
     margin: auto;
 }
 
-.to_home_page {
+.product__page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image {
+    display: block;
+    width: 100%;
+    max-width: 570px;
+    margin: 45px auto;
+    padding: 0 2vw;
+}
+
+.home-link {
     text-decoration: none;
     color: var(--link-color);
     font-size: 16px;
@@ -16,6 +29,101 @@
     cursor: pointer;
 }
 
-input[type=number]::-webkit-inner-spin-button {
+.home-link:hover {
+    color: var(--h2-text-color);
+}
+
+.in-stock-label {
+    color: #61a854;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product__page-subheader {
+    color: var(--h3-text-color);
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: "Signika Negative", sans-serif;
+    margin-top: 10px;
+}
+
+.product-code {
+    margin-top: 8px;
+    color: #5a3733;
+    font-size: 14px;
+}
+
+.product-price {
+    margin-top: 24px;
+    color: #939393;
+    font: 20px "Signika Negative", sans-serif;
+    font-weight: 600;
+}
+
+.product__page-divider {
+    margin: 16px auto;
+}
+
+input.product__page-input[type=number]::-webkit-inner-spin-button {
     opacity: 1
+}
+
+.product__page-inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.product__page-input {
+    background-color: white;
+    border: 1px solid rgb(197, 203, 214);
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin: 0 16px 16px 0;
+    max-width: 60px;
+    height: 40px;
+}
+
+.product__page-button {
+    flex: 1;
+    color: var(--store-white-text);
+    background-color: var(--h2-text-color);
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border:0;
+    text-transform: capitalize;
+    font-weight: bold;
+    height: 40px;
+}
+
+.product__page-button:hover{
+    background-color: var(--contacts-button-hover-background);
+    color: var(--store-white-text);
+}
+
+.product-description-heading {
+    margin-top: 24px;
+    padding: 0 10px;
+    color: #BCBCBC;
+    font: 12px "Open Sans", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.product-description {
+    color: #939393;
+    font: 16px "Open Sans", sans-serif;   
+}
+
+@media (min-width: 768px) {
+    .product__page-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .product-description__container {
+        max-width: 50%;
+        margin: auto;
+    }
 }
