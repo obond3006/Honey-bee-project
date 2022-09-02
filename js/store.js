@@ -1,6 +1,6 @@
 (function() {
 
-    const storeItems = [
+    const products = [
         {
             id: "18",
             img: "img/store/wildflower-honey.jpeg",
@@ -43,21 +43,29 @@
         }
     ];
 
-    function renderStore(storeItems) {
+    function productInfoClick(ev) {
+        const productId = ev.target.dataset.id;
+        const product = products.filter( product => product.id === productId)[0];
+        localStorage.product = JSON.stringify(product);
+      }
+
+    function renderStore(products) {
         const storeContainer = document.querySelector(".store__products-carousel");
         storeContainer.innerHTML = '';
-        for(const item of storeItems) {
+        for(const item of products) {
             storeContainer.innerHTML += `
         <div class="store__products-carousel-element">
-            <a href="product.html"><img class="carousel-product-thumb" src="${item.img}"
+            <a href="product.html" class="info-link"><img data-id=${item.id} class="carousel-product-thumb" src="${item.img}"
                     alt="${item.name}"></a>
             <h4 class="carousel-product-name">${item.name}</h4>
             <h5 class="carousel-product-price">$${item.price}USD</h5>
-            <a href="#" class="buy-product">Buy now</a>
+            <a href="product.html" data-id=${item.id} class="buy-product info-link">Buy now</a>
         </div>`;
         }
+        document.querySelectorAll('.info-link')
+        .forEach( link => link.addEventListener('click', productInfoClick) );
     }
 
-    renderStore(storeItems);
+    renderStore(products);
 
 })();
