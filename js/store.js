@@ -53,12 +53,13 @@
         const storeContainer = document.querySelector(".store__products-carousel");
         storeContainer.innerHTML = '';
         for(const item of products) {
+            const priceToShow = (item.price).toFixed(2)
             storeContainer.innerHTML += `
         <div class="store__products-carousel-element">
             <a href="product.html" class="info-link"><img data-id=${item.id} class="carousel-product-thumb" src="${item.img}"
                     alt="${item.name}"></a>
             <h4 class="carousel-product-name">${item.name}</h4>
-            <h5 class="carousel-product-price">$${item.price}USD</h5>
+            <h5 class="carousel-product-price">$${priceToShow}USD</h5>
             <a href="product.html" data-id=${item.id} class="buy-product info-link">Buy now</a>
         </div>`;
         }

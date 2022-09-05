@@ -5,6 +5,7 @@
         if (!product) return;
 
         const productCard = document.querySelector(".product__card");
+        const priceToShow = (product.price).toFixed(2)
 
         productCard.innerHTML = `
             <div class="product-image__container">
@@ -21,7 +22,7 @@
                 Product code ${product.id}
             </p>
             <p class="product-price">
-                $${product.price}USD
+                $${priceToShow}USD
             </p>
             <hr class="product__page-divider">
             <div class="product__page-inputs">
