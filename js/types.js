@@ -28,4 +28,14 @@ $(document).ready(function(){
   ]
     })
  });
+
+//Smooth scroll and page up
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 1000) {
+    $('.pageup').css('display','block');
+  } else {
+    $('.pageup').css('display','none');
+  }
+}); 
     
