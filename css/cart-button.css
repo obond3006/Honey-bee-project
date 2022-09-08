@@ -53,8 +53,9 @@
 }
 
 .popup__header {
-    padding: 16px;
     background-color: lightgray;
+    display: flex;
+    flex-direction: row;
 }
 
 .modal-form__container {
@@ -63,13 +64,21 @@
 
 }
 
+.item-heading{
+    padding: 16px;
+    font-size: 20px;
+    margin: 0;
+}
 .close-btn{
-    position:absolute;
+    /* position:relative;
     top: 20px;
-    right: 20px;
+    right: 20px; */
+    padding: 25px 16px;
     font-size: 20px;
     color: #1B1D1F;
     background: none;
     cursor: pointer;
     border: 0;
+    font-weight: bold;
+    margin: 0;
 }
