@@ -15,36 +15,34 @@
 </head>
 
 <body>
-    <!--Viktoriia start-->
+    <!--Olha start-->
     <header>
-        <nav class="header-containernav" id="header">
-            <div class="logo__container">
-                <img width="196" class="header__logo" src="img/header/logotype.svg" alt="main__logo">
+        <nav class="header-containernav">
+            <div class="logocontainer">
+                <img width="196" class="headerlogo" src="img/header/logotype.svg" alt="mainlogo">
             </div>
-            <div class="links_container">
-                <div class="burger-container">
-                    <span></span>
-                </div>
-                <div class="text__links">
-                    <a href="#about" class="text-link">About Us</a>
-                    <a href="#types" class="text-link">Types of Honey</a>
-                    <a href="#store" class="text-link">Store</a>
-                    <a href="#testimonials" class="text-link">Testimonials</a>
-                    <a href="#contacts" class="text-link">Contact Us</a>
-                    <a href="#store" class="bunner__button">Buy Honey</a>
-                </div>
+            <div class="burger">
+                <div></div>
+            </div>
+            <div class="textlinks">
+                <a href="#about" class="text-link">About Us</a>
+                <a href="#types" class="text-link">Types of Honey</a>
+                <a href="#store" class="text-link">Store</a>
+                <a href="#testimonials" class="text-link">Testimonials</a>
+                <a href="#contacts" class="text-link">Contact Us</a>                    <a href="#buy" class="bunnerbutton">Buy Honey</a>
             </div>
         </nav>
-        <div class="burger__links">
-            <a href="#about" class="burger-text-link">About Us</a>
-            <a href="#types" class="burger-text-link">Types of Honey</a>
-            <a href="#store" class="burger-text-link">Store</a>
-            <a href="#testimonials" class="burger-text-link">Testimonials</a>
-            <a href="#contacts" class="burger-text-link">Contact Us</a>
-            <a href="#store" class="burger-bunner__button">Buy Honey</a>
+        <div class="burger-links">
+            <a href="#about" class="text-link">About Us</a>
+            <a href="#types" class="text-link">Types of Honey</a>
+            <a href="#store" class="text-link">Store</a>
+            <a href="#testimonials" class="text-link">Testimonials</a>
+            <a href="#contacts" class="text-link">Contact Us</a>
+            <a href="#buy" class="bunnerbutton">Buy Honey</a>
         </div>
     </header>
-    <!--Viktoriia end-->
+    <!--Olha end-->
+
     <main>
         <!--Yuriy Lavrin start-->
         <section class="heading__theme">
@@ -237,16 +235,6 @@
         <!--Dmytro end-->
 
         <!--VolodymyrLys start-->
-
-        <!--  OLD VARIANT, WITHOUT JS!
-        <div class="video-poster"> 
-            <div class="round-types">
-                <div class="play-button"></div>
-            </div>
-            <div class="video-caption">HOW HONEY IS MADE</div>
-        </div>  
-        -->
-
         <div class="slideshow-container">
             <div class="mySlides fade">
                 <iframe width="560" height="275" src="https://www.youtube.com/embed/hbfiJHW-LP4"
@@ -276,11 +264,9 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </div>
-
         <!--VolodymyrLys end-->
 
         <!--VolodymyrLys start-->
-
         <div id="types" class="types-section-content">
             <div class="content-about">
                 <p class="honney-caption-collor">TYPES OF HONEY</p>
@@ -356,8 +342,7 @@
         </section>
         <!-- Cart popup end -->
 
-        <!--Mike Litovka start-->
-
+        <!--Olha start-->
         <section id="store" class="main__store">
             <div class="store__container">
                 <div class="store__header">
@@ -381,8 +366,7 @@
                 </div>
             </div>
         </section>
-
-        <!--Mike Litovka end-->
+        <!--Olha end-->
 
         <!--Anna start-->
         <div class="steps__hunny-line">
@@ -400,17 +384,12 @@
                     We are a small family-owned swath chain in California and we produce a limited amount of honey every
                     season. If you want to buy honey, the information below is for you:
                 </p>
-                <!--Anna start-->
-
-                <div class="cards__container">
-                    
+                <div class="cards__container">                    
                 </div>
                 <a href="#contacts" class="button-steps">Have a Special Request?</a>
             </div>
         </section>
-
         <!--Anna end-->
-
 
         <!--Rostyslav start-->
         <section id="testimonials" class="block__review">
@@ -814,10 +793,12 @@
         </div>
     </footer>
     <!--Rostyslav end-->
+
     <!-- Scroll up, Volodymyr Lys-->
     <a href="#header" class="pageup">
         <img src="img/types/up.svg" alt="UP"> 
     </a>
+    
     <script type="text/javascript" src="js/steps.js"></script>
     <script type="text/javascript" src="js/store.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

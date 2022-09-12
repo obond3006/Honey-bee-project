@@ -1,16 +1,12 @@
-(function(){
-    const burgerBtn = document.querySelector('.burger-container');
-    const burgerList = document.querySelector('.burger__links');
+// Burger
+(function() {
+    const burgerBtn = document.querySelector('.burger');
+    const burgerMenu = document.querySelector('.burger-links');
 
-    function openBurger(){
-        if (burgerBtn.classList.contains('burger-active')){
-            burgerBtn.classList.remove('burger-active');
-            burgerList.classList.remove('burger-active');
-        } else {
-            burgerBtn.classList.add('burger-active');
-            burgerList.classList.add('burger-active');
-        }
-    };
+    function openBurger () {
+        burgerBtn.classList.toggle('is-open');
+        burgerMenu.classList.toggle('is-open');
+    }
 
     burgerBtn.addEventListener('click', openBurger);
-})();
+})()

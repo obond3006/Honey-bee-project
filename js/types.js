@@ -1,35 +1,4 @@
-$(document).ready(function(){
-    $('.types-carusel').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  mobileFirst: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 922,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    }
-    
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-    })
- });
-
-//Smooth scroll and page up
+// Smooth scroll and page up
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > 1000) {
@@ -38,4 +7,32 @@ $(window).scroll(function() {
     $('.pageup').css('display','none');
   }
 }); 
-    
+
+// Types slider
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}

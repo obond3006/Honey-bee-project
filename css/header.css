@@ -1,0 +1,126 @@
+header {
+    background-color: var(--background-color);
+}
+
+.header-containernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 30px 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+
+.text-link {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 15px;
+    font-weight: 600;
+}
+
+.text-link:hover {
+    color: var(--h2-text-color);
+}
+
+.bunnerbutton {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--h2-text-color);
+    text-decoration: none;
+    color: #5a3733;
+    font-weight: 700;
+}
+
+.bunnerbutton:hover {
+    background-color: var(--h2-text-color);
+    color: var(--light-card-background-color)
+}
+
+.textlinks {
+    display: none;
+}
+
+.burger-links {
+    display: none;
+}
+
+.burger-links.is-open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+.burger {
+    position: relative;
+    width: 30px;
+    height: 20px;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.burger div,
+.burger::before,
+.burger::after {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--text-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.burger::before {
+    content: " ";
+    top: 0;
+}
+
+.burger::after {
+    content: " ";
+    bottom: 0;
+}
+
+.burger.is-open div {
+    transform: scale(0);
+}
+
+.burger.is-open::before {
+    top: 45%;
+    transform: rotate(-45deg);
+}
+
+.burger.is-open::after {
+    bottom: 45%;
+    transform: rotate(45deg);
+}
+@media (min-width: 922px) {
+    .text-link:hover {
+        border-bottom: 2px solid var(--h2-text-color);
+        color: var(--h2-text-color);
+    }
+
+    .burger{
+        display: none;
+    }
+
+    .burger-links, .burger-links.is-open {
+        display: none;
+    }
+
+    .textlinks {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
