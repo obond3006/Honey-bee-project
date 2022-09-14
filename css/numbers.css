@@ -1,17 +1,17 @@
+.numbers__section {
+    background-color:var(--numbers-background-color);    
+}
+
 .numbers__conteiner{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 50px 0 55px 0;
-    background-color:var(--numbers-background-color);
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin: auto;
-    flex: 1;
-    justify-content: space-around;
-    box-sizing: border-box;
-    font-family: "Signika Negative", sans-serif;
+    max-width: 1200px;
 }
+
 .numbers{
     display: flex;
     flex-direction: column;
@@ -22,16 +22,19 @@
     text-align: center;
     padding: 15px 15px 15px 15px;
 }
+
 .number{
     color: var(--h2-text-color)!important;
     font-size: 40px;
     font-weight: bold;
 }
+
 .line__number{
     height: 4px;
     width: 20%;
     background-color: var(--line-number-color);
 }
+
 .text__number{
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
@@ -39,24 +42,25 @@
     font-size: inherit;
 }
 
+.numbers__conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0 55px 0;
+}
 
-    .numbers__conteiner{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 50px 0 55px 0;
-    }
-    .numbers{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 15px 15px 15px 15px;
-    }
-@media (min-width: 920px){
-    .numbers__conteiner{
+.numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+
+@media (min-width: 920px) {
+    .numbers__conteiner {
         background-color:var(--numbers-background-color);
         display: flex;
         flex-direction: row;
@@ -68,7 +72,8 @@
         box-sizing: border-box;
         font-family: var( --blog-font);
     }
-    .numbers{
+
+    .numbers {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -78,17 +83,20 @@
         text-align: center;
         padding: 0 15px 0 15px;
     }
-    .number{
+
+    .number {
         color: var(--h2-text-color)!important;
         font-size: 40px;
         font-weight: bold;
     }
-    .line__number{
+
+    .line__number {
         height: 4px;
         width: 20%;
         background-color: var(--line-number-color);
     }
-    .text__number{
+
+    .text__number {
         font-weight: bold;
         font-family: var( --blog-font);
         color: var(--h3-text-color);
